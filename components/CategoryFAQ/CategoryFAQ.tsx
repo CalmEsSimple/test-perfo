@@ -11,13 +11,12 @@ import {
 } from "./styled";
 import Accordion from "@/components/Accordion/Accordion";
 import { IAccordionItem } from "../Accordion/types";
-const FrequentQuestions = ({faqAccordion, title, boldTitle ,is30night}: {faqAccordion?: IAccordionItem[], title: string, boldTitle: string ,is30night:boolean}) => {
+const FrequentQuestions = ({faqAccordion, title, boldTitle ,is30night}: {faqAccordion?: IAccordionItem[], title: string, boldTitle: string ,is30night?:boolean}) => {
   const IconIsActive = {
     LocalmQuestions: true,
     LocalmEmpathy: false,
     frequentQuestions: false
   };
-
 
   return (
     <DivContainer $is30Night={is30night}>

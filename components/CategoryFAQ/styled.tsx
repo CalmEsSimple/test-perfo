@@ -75,7 +75,7 @@ export const DivTextAccordion = styled.div`
 export const TittleAccordion = styled.h3<{$is30night?:boolean}>`
   padding: 0;
   margin: 0.7rem;
-  color:${props=>!props.$is30night?"#FABD00":"#303030"};
+  color:  #303030;
   font-family: ${props => props.theme.fonts.extraBold};
   font-size: 0.9em;
   font-weight: 800;

@@ -8,6 +8,7 @@ import {
   Img,
   DivButton,
   ImgTecho,
+  DivDonate,TextDonate, TitleDonate, TextCommitment, ContainerCompromiso, ContainerText
 } from "./LandingCss";
 import { useWidth } from "@/hooks/useWidth";
 
@@ -17,6 +18,8 @@ const Landing = () => {
   const breakpoint = 768;
 
   return (
+  <div>
+
     <DivLanding>
       <DivImage>
         {width > breakpoint ? (
@@ -47,6 +50,30 @@ const Landing = () => {
         ></ImgTecho>
       </DivText>
     </DivLanding>
+    <ContainerCompromiso>
+      <ContainerText>
+    <DivDonate id="pasos">
+        {width > breakpoint ? (
+          <TextDonate>
+            Tenemos una propuesta para vos: el colchón que ya no vas a usar,{" "}
+            <br />
+            tu ex colchón, lo podés donar y nosotrxs nos encargamos de buscarle
+            <br />
+            un nuevo hogar para que alguien más pueda descansar mejor.
+          </TextDonate>
+        ) : (
+          <TextDonate>
+            Tenemos una propuesta para vos: el colchón que ya no vas a usar, tu
+            ex colchón, lo podés donar y nosotrxs nos encargamos de buscarle un
+            nuevo hogar para que alguien más pueda descansar mejor.
+          </TextDonate>
+        )}
+        <TextCommitment>#CompromisoDescansadxs ✨</TextCommitment>
+      </DivDonate>
+      <TitleDonate>¿Cómo hago para ayudar?</TitleDonate>
+      </ContainerText>
+    </ContainerCompromiso>
+  </div>
   );
 };
 

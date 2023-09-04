@@ -9,7 +9,7 @@ import Bed from '@/components/Bed/Bed';
 import CategoryFaq from "@/components/CategoryFAQ/CategoryFAQ"
 import faqAccordion from "@/jsons/FrequentQuestions/FrequentQuestions.json"
 import Help from '@/components/Compromiso/Help/Help';
-import helpComponent from "@/utils/helpComponent.json"
+import helpJson from "@/utils/helpComponent.json"
 
 export const FAQPage = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => {
   const [render, setRender] = useState(false)
@@ -33,7 +33,7 @@ export const FAQPage = ({landingSEO, graphImageObject, graphWebPage}: ILanding) 
       {render && 
         <main>
           <NochesLanding/>
-          <Help cards={helpComponent.cardsHelp.cards30Noches} isCompromiso={false}/>
+          <Help cards={helpJson.cards30Noches}/>
           <CategoryFaq is30night={true} faqAccordion={faqAccordion.TestNights} title='' boldTitle='Preguntas frecuentes'/>
           <Bed />
         </main>

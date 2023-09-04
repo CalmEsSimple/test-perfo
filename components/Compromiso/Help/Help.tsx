@@ -1,92 +1,52 @@
-import { useWidth } from "@/hooks/useWidth";
 import {
   DivHelp,
-  DivDonate,
-  TextDonate,
-  TitleDonate,
   DivCards,
   Card,
-  ImageCard,
-  TextCard,
-  TitleCard,
-  DivTextCard,
-  DivImageCard,
   DivContainerCard,
-  TextCommitment,
-  DivCardsViolet,
-  CardViolet,
-  ImageCardViolet,
+  DivImageCard,
+  ImageCard,
+  DivTextCard,
+  ContainerCarrousel,
   TextCardViolet,
-  TitleCardViolet,
-  DivTextCardViolet,
-  DivImageCardViolet,
-  DivContainerCardViolet,
-  WordDonated
+  TitleCardViolet
 } from "./HelpCss";
 import { IProps } from "./types";
-import parse from 'html-react-parser'; 
+import parse from "html-react-parser";
+import Carrousel from "./carouselHelp/Carousel";
+import { useWidth } from "@/hooks/useWidth";
+import { deviceSizes } from "@/utils/Theme";
 
-const Help = ({ cards, isCompromiso }: IProps) => {
+const Help = ({ cards, Title, Text, background, carousel }: IProps) => {
   const width = useWidth();
-  const breakpoint = 768;
   return (
-    
     <DivHelp>
-      {isCompromiso?(
-      <DivDonate id="pasos">
-        {width > breakpoint ? (
-          <TextDonate>
-            Tenemos una propuesta para vos: el colchón que ya no vas a usar,{" "}
-            <br />
-            tu ex colchón, lo podés donar y nosotrxs nos encargamos de buscarle
-            <br />
-            un nuevo hogar para que alguien más pueda descansar mejor.
-          </TextDonate>
+      <DivCards carousel={carousel}>
+        {width <= deviceSizes.mobile && carousel ? (
+          <ContainerCarrousel>
+            <Carrousel
+              Title={Title}
+              Text={Text}
+              cards={cards}
+              background="pickUp"
+              carousel={true}
+            />
+          </ContainerCarrousel>
         ) : (
-          <TextDonate>
-            Tenemos una propuesta para vos: el colchón que ya no vas a usar, tu
-            ex colchón, lo podés donar y nosotrxs nos encargamos de buscarle un
-            nuevo hogar para que alguien más pueda descansar mejor.
-          </TextDonate>
+          cards.map((card, index) => (
+            <Card key={index} background={background} carousel={carousel}>
+              <DivContainerCard carousel={carousel}>
+                <DivImageCard carousel={carousel}>
+                  <ImageCard carousel={carousel} src={card.img.url} alt={card.img.alt} />
+                </DivImageCard>
+                <DivTextCard carousel={carousel}>
+                { Title ? <Title>{card.step}</Title> : <TitleCardViolet>{card.step}</TitleCardViolet> }
+                { Text ? <Text>{parse(card.text)}</Text> : <TextCardViolet>{parse(card.text)}</TextCardViolet>}
+                </DivTextCard>
+              </DivContainerCard>
+            </Card>
+          ))
         )}
-        <TextCommitment>#CompromisoDescansadxs ✨</TextCommitment>
-      <TitleDonate>¿Cómo hago para ayudar?</TitleDonate>
-    </DivDonate>
-
-      ):null}
-{isCompromiso ? (
-      <DivCards>
-        {cards.map((card, index) => (
-            <Card key={index}>
-          <DivContainerCard>
-            <DivImageCard>
-              <ImageCard src={card.img.url} alt={card.img.alt} />
-            </DivImageCard>
-            <DivTextCard>
-              <TitleCard>{card.step}</TitleCard>
-              <TextCard>{parse(card.text)}</TextCard>
-            </DivTextCard>
-          </DivContainerCard>
-        </Card>
-))}
       </DivCards>
-) : (
-        <DivCardsViolet>
-          {cards.map((card, index) => (
-            <CardViolet key={index}>
-              <DivContainerCardViolet>
-                <DivImageCardViolet>
-                  <ImageCardViolet src={card.img.url} alt={card.img.alt} />
-                </DivImageCardViolet>
-                <DivTextCardViolet>
-                  <TitleCardViolet>{card.step}</TitleCardViolet>
-                  <TextCardViolet>{parse(card.text)}</TextCardViolet>
-                </DivTextCardViolet>
-              </DivContainerCardViolet>
-            </CardViolet>
-          ))}
-        </DivCardsViolet>
-      )}
     </DivHelp>
   );
 };

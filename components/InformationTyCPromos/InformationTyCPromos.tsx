@@ -1,4 +1,4 @@
-import Bed from "../Bed/Bed";
+import BedParams from "../BedParams/BedParams";
 import { IProps } from "./types";
 import { useQuery } from "@apollo/client";
 import parse from "html-react-parser";
@@ -50,7 +50,15 @@ const InformationTyCPromos = ({
           )}
         </CardsPromotionContainer>
       </DivTerms>
-      <Bed></Bed>
+      <BedParams
+        imgSrc={
+          "https://calmessimple.com.ar/wp-content/uploads/2019/10/FotoColch%C3%B3n-02.jpg"
+        }
+        numberRedirect="334"
+        titleButton="Ver colchón"
+        ariaLabelButton="Ver colchón"
+        textBanner="Volvamos a la cama"
+      ></BedParams>
     </>
   );
 };

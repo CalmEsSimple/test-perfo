@@ -137,3 +137,59 @@ export const ImgTecho = styled.img`
     display: none;
   }
 `
+export const ContainerCompromiso = styled.div`
+ max-width: 100vw;
+ `
+export const ContainerText = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 1.3rem;
+`
+export const DivDonate = styled.div``;
+
+export const TitleDonate = styled.h2`
+  color: #303030;
+  font-family: ${props => props.theme.fonts.light};
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 2em;
+  @media ${props => props.theme.devices.biggerMobile} {
+    font-size: 1.5em;
+  }
+  @media ${props => props.theme.devices.mobile} {
+    font-size: 1rem;
+  }
+`
+
+export const TextDonate = styled.h2`
+  color: #303030;
+  font-family: ${props => props.theme.fonts.medium};
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 2rem 0 1rem 0;
+  letter-spacing: -0.3px;
+  text-align: center;
+  @media ${props => props.theme.devices.biggerMobile} {
+    font-size: 1.2em;
+  }
+  @media ${props => props.theme.devices.mobile} {
+    font-size: .9rem;
+  }
+`;
+
+export const TextCommitment = styled.h2`
+  font-family: ${props => props.theme.fonts.bold};
+  color: #303030;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.3em;
+  margin: 2rem 0 5rem 0;
+  letter-spacing: -0.3px;
+  @media ${props => props.theme.devices.mobile} {
+    font-size: 1em;
+  }
+`

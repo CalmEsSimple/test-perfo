@@ -9,10 +9,12 @@ export const DivTerms = styled.section`
 `;
 export const TitleTerms = styled.h2`
   color: rgba(25, 25, 28, 0.8);
-  font-family: ${(props) => props.theme.fonts.extraBold};
-  font-weight: 800;
+  font-family: ${(props) => props.theme.fonts.regular};
+  font-size: 1.8rem;
   text-align: center;
   margin: 4rem 0px 4rem 0px;
+  line-height: 1.1rem;
+  letter-spacing: 0.1rem;
 `;
 
 export const CardsPromotionContainer = styled.div`
@@ -28,13 +30,14 @@ export const CardsPromotionContainer = styled.div`
 `;
 
 export const PromoBox = styled.div`
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  border-radius: 0.7rem;
-  padding: 1rem 1rem;
+  box-shadow: 8px 10px 7px -7px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 10px 7px -7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 10px 7px -7px rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  padding: 1.2rem 1.2rem;
   margin: 1rem 0.3rem;
-  min-height: 12rem;
   width: calc(33.33% - 20px);
+  background: #fbfbfb;
 
   &:nth-child(3n + 1) {
     margin-left: 0;
@@ -46,6 +49,7 @@ export const PromoBox = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    padding: 0.5rem 0.5rem;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.7rem;
@@ -83,30 +87,34 @@ export const TitleTyCPromosCard = styled.h2<{ $isYellowTitle?: boolean }>`
     props.$isYellowTitle
       ? props.theme.colors.yellowCalm
       : props.theme.colors.millionGray};
-  font-family: ${(props) => props.theme.fonts.extraBold};
-  font-size: 1.3rem;
+  font-family: ${(props) => props.theme.fonts.medium};
+  font-size: 1.2rem;
   font-weight: 300;
-  margin: 1rem 0 0.5rem 0;
+  margin: 0.7rem;
+
   @media ${(props) => props.theme.devices.mobile} {
     width: 90%;
     margin: 0 auto 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1;
+    text-align: center;
+    padding: 0.8rem;
   }
 `;
 
 export const TextSmallCards = styled.p<{ $isYellowTitle?: boolean }>`
+  font-family: "Muli";
   color: ${(props) =>
     props.$isYellowTitle
       ? props.theme.colors.yellowCalm
-      : props.theme.colors.millionGray};
+      : props.theme.colors.thamarBlack};
   text-align: left;
-  font-family: "Muli";
   margin: 0 0 1.41575em;
-  color: #7a7a7a;
   font-weight: 400;
-  line-height: 1.618;
+  font-size: 0.81rem;
+  line-height: 1rem;
   text-rendering: optimizeLegibility;
+
   a {
     color: #fabd00;
   }
@@ -115,9 +123,10 @@ export const TextSmallCards = styled.p<{ $isYellowTitle?: boolean }>`
     margin: 0px 2rem 0px 2rem;
   }
 
-  @media {
+  @media (max-width: 768px) {
     margin: 0 auto 1rem;
     // font-size: 2rem;
     line-height: 1;
+    text-align: center;
   }
 `;

@@ -6,12 +6,12 @@ import { topPage } from '@/utils/topPage';
 import { useEffect, useState } from 'react';
 import Landing from '@/components/Compromiso/Landing/Landing';
 import Help from '@/components/Compromiso/Help/Help';
-import {cardsHelp} from "../utils/helpComponent.json"
+import helpJson from "../utils/helpComponent.json"
 import Withdrawals from '@/components/Compromiso/Withdrawals/Withdrawals';
 import Cyber from '@/components/Compromiso/Cyber/Cyber';
 import HotSale from '@/components/Compromiso/HotSale/HotSale';
 import Questions from '@/components/Compromiso/Questions/Questions';
-
+import { Title, Text } from '@/components/Compromiso/Landing/propStylesCss/propStyleLanding';
 export const CompromisoDescansados = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => {
   const [render, setRender] = useState(false)
   useEffect(() => {
@@ -33,7 +33,7 @@ export const CompromisoDescansados = ({landingSEO, graphImageObject, graphWebPag
       {render && 
         <main>
           <Landing />
-          <Help cards={cardsHelp.cardsCompromisosDescansados} isCompromiso={true}/>
+          <Help cards={helpJson.cardsCompromisosDescansados} background={"compromiso"} Title={Title} Text={Text} carousel={false} />
           <Withdrawals/>
           <Cyber />
           <HotSale />

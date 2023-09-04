@@ -16,7 +16,7 @@ export const DivWithdrawalsText = styled.div`
 
 export const TitleWithdrawals =  styled.h2`
   color: #303030;
-  font-family: ${props => props.theme.fonts.extraBold};
+  font-family: ${props => props.theme.fonts.regular};
   font-weight: 800;
   font-size: 2em;
   @media (max-width: 768px) {

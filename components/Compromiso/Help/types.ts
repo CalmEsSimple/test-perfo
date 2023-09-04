@@ -1,4 +1,4 @@
-
+import { IStyledComponent } from "styled-components"
 interface IImage {
  url: string,
  alt: string
@@ -12,5 +12,11 @@ interface ICard {
 
 export interface IProps {
     cards: ICard[]; 
-    isCompromiso?: boolean
+    Title?: IStyledComponent<"web", any>,
+    Text?: IStyledComponent<"web", any>,
+    background? : string
+    carousel?: boolean
 }
+
+
+  
