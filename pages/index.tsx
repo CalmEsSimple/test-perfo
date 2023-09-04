@@ -16,7 +16,6 @@ import { useEffect, useState } from 'react';
 import { topPage } from '@/utils/topPage';
 import { onGetHomeRelatedProducts } from '@/state/products/productsActions';
 import Donate from '@/components/Donate/Donate';
-import Score from '@/components/Score/Score';
 import Trials from '@/components/Trial/Trial';
 import ImgDescButt from '@/components/ImgDescButt/ImgDescButt';
 import { getCurrentProductsRelated } from '@/state/products/productsSelector';
@@ -55,7 +54,6 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => 
           <Colchon />
           <RelatedProducts relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <Donate />
-          <Score />
           <Trials />
           <ImgDescButt />
         </main>
