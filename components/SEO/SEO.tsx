@@ -119,13 +119,6 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
             `}
       </Script>
 
-      {showCalmRichSnippet &&
-         <>
-            <link rel="preload" fetchpriority="high" as="image" href="https://calmessimple.com.ar/wp-content/uploads/2022/09/2700x900_WebSinPromo.webp" type="image/webp" />
-            <link rel="preload" fetchpriority="high" as="image" href="https://calmessimple.com.ar/wp-content/uploads/2023/03/Calm2514.jpg" type="image/webp" />
-         </>
-      }
-
       <Head>
          <title>{title}</title>
          <meta name="description" content={description} />
@@ -145,7 +138,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
 
          <link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
 
-         {process.env.NODE_ENV != "development" &&
+         {/*process.env.NODE_ENV != "development" &&
             <>
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/css/ae4ed9c503fd1e33.css" as="style"></link>
                <link rel="stylesheet" href="https://astounding-fudge-d98f38.netlify.app/_next/static/css/ae4ed9c503fd1e33.css" data-n-g=""></link>
@@ -155,7 +148,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/media/Gilroy-Regular.670696e4.ttf" as="font" type="font/ttf" data-next-font="size-adjust" />
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/media/Gilroy-Light.feb2c15a.ttf" as="font" type="font/ttf" data-next-font="size-adjust" />
             </>
-         }
+         */}
 
          <script type="application/ld+json">
             {JSON.stringify({
