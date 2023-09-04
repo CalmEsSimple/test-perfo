@@ -28,7 +28,7 @@ import { IChildrenProd, IProduct } from "@/state/products/types";
 import PillOfferProduct from "../PillOfferProduct/PillOfferProduct";
 import { formatNumber } from "@/utils/formatPrices";
 
-const Colchon = () => {
+const Colchon = ({colchon}: any) => {
   const productsData = useSelector((state: IStore) => getProductsData(state));
   const dispatch = useDispatch();
   const [showInfo, setShowInfo] = useState(false);
@@ -53,13 +53,16 @@ const Colchon = () => {
       !productsData ||
       productsData.every((product) => product.id !== selectedProduct)
     ) {
-      dispatch(onGetProduct(selectedProduct));
+      //dispatch(onGetProduct(selectedProduct));
     }
   }, []);
 
   useEffect(() => {
-    setProduct(productsData?.find((product) => product.id == selectedProduct));
-  }, [productsData]);
+    if(colchon) {
+      setProduct(colchon);
+    }
+    
+  }, [colchon]);
 
   useEffect(() => {
     setLowestChild(product?.children.find(child => child.price == product.price))

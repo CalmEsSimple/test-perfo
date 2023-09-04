@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import SEO from '../components/SEO/SEO';
-import { ILanding } from '@/types';
+//import { ILanding } from '@/types';
 import { getLandingSEO } from '@/utils/hygraphHelper';
 import SliderBigBanner from '@/components/SliderBigBanner/SliderBigBanner';
 import TagShipment from '@/components/TagShipment/TagShipment';
@@ -10,25 +10,23 @@ import DreamRest from '@/components/DreamRest/DreamRest';
 import Simple from '@/components/Simple/Simple';
 import Colchon from '@/components/Colchon/Colchon';
 import RelatedProducts from '@/components/RelatedProducts/RelatedProducts';
-import { useDispatch, useSelector } from 'react-redux';
-import { IStore } from '@/state/types';
+//import { useSelector } from 'react-redux';
+//import { IStore } from '@/state/types';
 import { useEffect, useState } from 'react';
 import { topPage } from '@/utils/topPage';
-import { onGetHomeRelatedProducts } from '@/state/products/productsActions';
 import Donate from '@/components/Donate/Donate';
 import Score from '@/components/Score/Score';
 import Trials from '@/components/Trial/Trial';
 import ImgDescButt from '@/components/ImgDescButt/ImgDescButt';
-import { getCurrentProductsRelated } from '@/state/products/productsSelector';
+//import { getCurrentProductsRelated } from '@/state/products/productsSelector';
+import axios from 'axios';
 
-export const Home = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => {
-  const dispatch = useDispatch();
-  const currentProductsRelated = useSelector((store: IStore) => getCurrentProductsRelated(store))
+export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProductsRelated, colchon}: any) => {
+  //const currentProductsRelated = useSelector((store: IStore) => getCurrentProductsRelated(store))
   const [render, setRender] = useState(false)
 
   useEffect(() => {
     topPage()
-    dispatch(onGetHomeRelatedProducts())
     setRender(true)
   }, [])
 
@@ -52,7 +50,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => 
           <Experience />
           <DreamRest />
           <Simple />
-          <Colchon />
+          <Colchon colchon={colchon} />
           <RelatedProducts relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <Donate />
           <Score />
@@ -66,7 +64,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage}: ILanding) => 
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<ILanding> = async () => {
+export const getStaticProps: GetStaticProps<any> = async () => {
   const landingSEO = await getLandingSEO("clklkyvx3900h0bka5jwd0qtj")
 
   const graphImageObject = {
@@ -96,5 +94,34 @@ export const getStaticProps: GetStaticProps<ILanding> = async () => {
     "dateModified":"2023-07-24T23:37:43+00:00",
     "description":"Compr\u00e1 online colchones y todo lo que necesitas para descansar bien. Env\u00edo gratis  &#x1F6FB; Hasta 12 cuotas sin inter\u00e9s &#x1F4B3; El mejor puntuado &#x2B50;"
   }
-  return { props: {landingSEO, graphImageObject, graphWebPage} }
+
+  const requestConfig = {
+    headers: {
+      "Content-Type": "text/plain",
+      "Access-Control-Allow-Origin": "*",
+      "mode": 'no-cors'
+    },
+  };
+
+  const p1 = new Promise((resolve, reject) => {
+    axios.get(
+      `${process.env.NEXT_PUBLIC_ENDPOINT_URL_BASE}/products/get_home_cross_selling_products.php`,
+      requestConfig
+    ).then(({data}) => {resolve(data)}).catch((error) => {console.log(error)})
+  });
+
+  const p2 = new Promise((resolve, reject) => {
+    axios.get(
+      `${process.env.NEXT_PUBLIC_ENDPOINT_URL_BASE}/products/get_product_by_id.php?id=334`,
+      requestConfig
+    ).then(({data}) => {resolve(data)}).catch((error) => {console.log(error)})
+  });
+
+  const a = await Promise.all([p1, p2]).then(
+    (values) => {
+      return { props: {landingSEO, graphImageObject, graphWebPage, currentProductsRelated: values[0], colchon: values[1]} }
+    }
+  );
+
+  return a;
 }
