@@ -25,7 +25,6 @@ const CategoryCard = ({ item, installments, splitCharacter }: { item: IProduct, 
         <ImageN
           src={item.image}
           alt={item.name}
-          fill={true}
         />
       </a>
       <Name>{arrayName[0]}</Name>

@@ -65,7 +65,6 @@ const AccordionUnit = ({
             </svg>
             <TittleAccordion>{parse(itemName)}</TittleAccordion>
             <ImgStatic
-                fill={true}
                 $isActive={isActive}
                 src={
                   isActive
@@ -85,7 +84,6 @@ const AccordionUnit = ({
                     : IconsLinks.plusLess.plus
                 }
                 alt="flecha"
-                fill={true}
               ></ImgStatic>
               <TittleAccordion >{parse(itemName)}</TittleAccordion>
             </DivIconPlus>
@@ -97,7 +95,6 @@ const AccordionUnit = ({
                   $isActive={isActive}
                   src={IconsLinks.arrow}
                   alt="flecha"
-                  fill={true}
                 ></ImgRotate>
               ) : (
                 <Icon $isActive={isActive}>{IconsLinks.plusString}</Icon>

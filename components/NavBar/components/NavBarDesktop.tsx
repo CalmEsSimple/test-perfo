@@ -38,7 +38,7 @@ const NavBarDesktop = ({ menuData, staticLandings, cartItemsCount, selectedLink,
     return (
         <>
             <LogoWrapper href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/"}>
-                <Logo fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1c402bf2-3576-4250-dd6e-80fef24a0400/thumbnail" alt="logo"/>
+                <Logo src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1c402bf2-3576-4250-dd6e-80fef24a0400/thumbnail" alt="logo"/>
             </LogoWrapper>
             <NavBarWrapper>
                 <MenuWrapper>
@@ -76,7 +76,7 @@ const NavBarDesktop = ({ menuData, staticLandings, cartItemsCount, selectedLink,
                                     </ProductsColumn>
                                     {categoryItem.selectedProducts.map((product) => (
                                         <SelectedProductWrapper key={product.id}>
-                                            <Link href={productURLRedirectionByURL(product.id)}><ProductImage fill={true} src={product.image_url} alt="producto" /></Link>
+                                            <Link href={productURLRedirectionByURL(product.id)}><ProductImage src={product.image_url} alt="producto" /></Link>
                                             <ProductName href={productURLRedirectionByURL(product.id)}>{product.name}</ProductName>
                                             <ProductDescription>{product.description}</ProductDescription>
                                         </SelectedProductWrapper>
@@ -100,7 +100,7 @@ const NavBarDesktop = ({ menuData, staticLandings, cartItemsCount, selectedLink,
                             )
                         })}
                     </LandingsWrapper>
-                    <CartWrapper onClick={() => openCart()}><Cart fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d234b338-32c2-47a1-771b-0f787a19dd00/public" alt="carrito" /><CartNumber>{cartItemsCount}</CartNumber></CartWrapper>
+                    <CartWrapper onClick={() => openCart()}><Cart src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d234b338-32c2-47a1-771b-0f787a19dd00/public" alt="carrito" /><CartNumber>{cartItemsCount}</CartNumber></CartWrapper>
                 </CartAndLandingsWrapper>
             </NavBarWrapper>
         </>

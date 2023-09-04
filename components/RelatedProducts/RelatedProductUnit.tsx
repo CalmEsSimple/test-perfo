@@ -80,7 +80,7 @@ const RelatedProductUnit = ({
         {offer && <PillOfferProduct pillId={offer} isRelatedProducts />}
 
         <Link href={link}>
-          <Img fill={true} data-src={img} src={img} alt={name} className="lazyload" $fromCart={fromCart} />
+          <Img data-src={img} src={img} alt={name} className="lazyload" $fromCart={fromCart} />
         </Link>
 
         {
