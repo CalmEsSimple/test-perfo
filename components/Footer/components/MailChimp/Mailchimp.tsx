@@ -56,7 +56,7 @@ const MailChimpForm = ({ tag, btnText }: IProps) => {
     const showContentBtn = () => {
         return btnText ?? (
             < ArrowIcon
-                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a26881a3-9194-484e-491f-642e0818ac00/fit=cover"
+                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a26881a3-9194-484e-491f-642e0818ac00/fit=crop"
                 alt="flecha"
             />
         )

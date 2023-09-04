@@ -14,8 +14,8 @@ const BodyCancel = () => {
         <img
           width="100"
           height="100"
-          src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/2ad809c2-f0bf-4c19-1ff4-eaad569fdf00/fit=cover"
-          data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/2ad809c2-f0bf-4c19-1ff4-eaad569fdf00/fit=cover"
+          src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/2ad809c2-f0bf-4c19-1ff4-eaad569fdf00/fit=crop"
+          data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/2ad809c2-f0bf-4c19-1ff4-eaad569fdf00/fit=crop"
           alt="Icono de Caja con colchón"
         ></img>
       </DivImagen>

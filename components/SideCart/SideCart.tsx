@@ -161,7 +161,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                         aria-label={`Borrar cupón ${coupon.code}`}
                                         onClick={() => removeCoupon(coupon.code)}
                                     >
-                                        <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/fit=cover" alt="Borrar cupón" />
+                                        <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/fit=crop" alt="Borrar cupón" />
                                     </button> : <></>
                             }
 
@@ -255,7 +255,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                 aria-label="Vaciar carrito"
                                 className="disabled"
                             >
-                                <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e2550a75-61c1-4ed8-97ad-deea13f59e00/fit=cover" alt="Icono borrar" />
+                                <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e2550a75-61c1-4ed8-97ad-deea13f59e00/fit=crop" alt="Icono borrar" />
                                 Vaciar carrito
                             </ButtonDisabled> */}
                             <ButtonDisabled aria-label="Iniciar compra" >
@@ -264,7 +264,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                         </>
                         :
                         <>
-                            {/* <ButtonEmptyCart onClick={() => clearCart()} aria-label="Vaciar carrito"><img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8e51ff8c-e2e3-419e-a17f-b0a7c4ecc600/fit=cover" alt="Icono borrar" /> Vaciar carrito</ButtonEmptyCart> */}
+                            {/* <ButtonEmptyCart onClick={() => clearCart()} aria-label="Vaciar carrito"><img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8e51ff8c-e2e3-419e-a17f-b0a7c4ecc600/fit=crop" alt="Icono borrar" /> Vaciar carrito</ButtonEmptyCart> */}
 
                             <BtnLinkCart aria-label="Iniciar compra">
                                 <a className="text-btn-link" href={`${process.env.NEXT_PUBLIC_REDIRECT_URL_BASE}/pago`}>
@@ -339,7 +339,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                             aria-label="Agregar cupón descuento"
                                             title="Agregar cupón descuento"
                                         >
-                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/fit=cover" alt="cupon icono" />
+                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/fit=crop" alt="cupon icono" />
                                         </button>
                                         :
                                         <button
@@ -348,7 +348,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                             title="Agregar cupón descuento"
                                             onClick={toggleCoupon}
                                         >
-                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/fit=cover" alt="cupon icono" />
+                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/fit=crop" alt="cupon icono" />
                                             <h5>Agregar cupón</h5>
                                         </button>
                                 }
@@ -425,7 +425,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                     ) :
                         <PEmptyCart>
                             <p>Tu carrito está vacío</p>
-                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/fdded6b5-f37f-4eae-a0fa-522f87e77500/fit=cover" alt="Carrito img" />
+                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/fdded6b5-f37f-4eae-a0fa-522f87e77500/fit=crop" alt="Carrito img" />
                         </PEmptyCart>
                     }
 

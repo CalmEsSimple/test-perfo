@@ -281,7 +281,7 @@ const ComponentModal = ({ Layout, CloseHandle, addToCart, skus }: IProps) => {
           <DivButtonModal>
             <IconModal
               onClick={() => modalHandle()}
-              src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1b0595b8-94ac-4c62-0275-d49fb540c000/fit=cover"
+              src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1b0595b8-94ac-4c62-0275-d49fb540c000/fit=crop"
               alt="alert"
             />
           </DivButtonModal>
@@ -315,7 +315,7 @@ const ComponentModal = ({ Layout, CloseHandle, addToCart, skus }: IProps) => {
                   <DivAlert>
                     <DivImgAlert>
                       <ImgAlert
-                        src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1b0595b8-94ac-4c62-0275-d49fb540c000/fit=cover"
+                        src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1b0595b8-94ac-4c62-0275-d49fb540c000/fit=crop"
                         alt="alert"
                       />
                     </DivImgAlert>

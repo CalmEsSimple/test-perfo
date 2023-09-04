@@ -15,7 +15,7 @@ const Experience = () => {
     <DivBackground>
       <DivExperience>
         <DivImage>
-          <Img src='https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8c38695d-2973-46f8-a677-c773f73dc800/fit=cover' alt="experienceImage" />
+          <Img src='https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8c38695d-2973-46f8-a677-c773f73dc800/fit=crop' alt="experienceImage" />
         </DivImage>
         <DivTexto>
           <Title>

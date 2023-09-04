@@ -24,7 +24,7 @@ const Landing = () => {
       <DivImage>
         {width > breakpoint ? (
           <Img
-            src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/fit=cover"
+            src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/fit=crop"
             alt="compromiso descansados"
           />
         ) : (

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import sleepPerson from "../../../../assets/localm/img_cyber_2022.webp";
 
 export const DivSleep = styled.section`
-  background-image: url('https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8b1775e5-dc87-4d4e-87e7-7fd4f6c5f900/fit=cover');
+  background-image: url('https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8b1775e5-dc87-4d4e-87e7-7fd4f6c5f900/fit=crop');
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
