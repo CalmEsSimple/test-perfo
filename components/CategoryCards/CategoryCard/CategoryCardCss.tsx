@@ -27,7 +27,7 @@ export const DivUnit = styled.div`
 
 `;
 
-export const ImageN = styled(Image)`
+export const ImageN = styled.img`
   width: 100%;
   border-radius: 8%;
 `;

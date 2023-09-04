@@ -148,7 +148,7 @@ export const Link = styled.a`
   color: #fabd00;
 `;
 
-export const Img = styled(Image)<{ $fromCart?: boolean }>`
+export const Img = styled.img<{ $fromCart?: boolean }>`
   width: ${props => props.$fromCart ? '' : '14rem'};
   height: ${props => props.$fromCart ? '8rem' : '9rem'};
   border-radius: ${props => props.$fromCart ? '0px' : '10px'};

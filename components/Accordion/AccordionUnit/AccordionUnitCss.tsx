@@ -37,7 +37,7 @@ interface ImgRotateProps {
   $isActive?: boolean;
 }
 
-export const ImgRotate = styled(Image)<ImgRotateProps>`
+export const ImgRotate = styled.img<ImgRotateProps>`
   transform: rotate(${(props) => (props.$isActive ? -180 : 0)}deg);
   transition: all 0.2s;
 `;
@@ -45,7 +45,7 @@ interface ImgStaticProps {
   $isActive?: boolean;
 }
 
-export const ImgStatic = styled(Image)<ImgStaticProps>`
+export const ImgStatic = styled.img<ImgStaticProps>`
 
 `;
 

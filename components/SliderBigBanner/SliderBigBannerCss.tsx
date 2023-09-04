@@ -39,7 +39,7 @@ export const SliderWrapper = styled.div<{$color: string, $imageSrc: string}>`
   }
 `;
 
-export const PlainImage = styled(Image)`
+export const PlainImage = styled.img`
   height: 0;
 `;
 

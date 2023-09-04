@@ -18,7 +18,7 @@ export const DivImage = styled.div`
   }
 `;
 
-export const Img = styled(Image)`
+export const Img = styled.img`
   max-width: 100%;
   height: auto;
 

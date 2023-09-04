@@ -93,17 +93,17 @@ export const ChildrenIconHolder = styled.div`
     margin:0px 10px 0px 10px;
 `;
 
-export const ImgIcon = styled(Image)`
+export const ImgIcon = styled.img`
     height:100%;
     width: 100%;
 `;
 
-export const SocialIcon = styled(Image)`
+export const SocialIcon = styled.img`
     height: 1.1em;
     margin-top: 3px;
 `;
 
-export const ArrowIcon = styled(Image)`
+export const ArrowIcon = styled.img`
     height: 70%;
     margin-top: 3px;
 `;
