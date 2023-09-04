@@ -82,16 +82,16 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          />
       }
 
-      <Script
+      {/*<Script
          src="https://www.googletagmanager.com/gtag/js?id=AW-703433440"
          onLoad={() => {
             const script = document.createElement("script");
             script.innerHTML = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-703433440');`
             document.head.appendChild(script);
          }}
-      />
+      />*/}
 
-      <Script
+      {/*<Script
          src="https://www.googletagmanager.com/gtm.js?id=GTM-KV4GTWK"
          onLoad={() => {
             const script = document.createElement("script");
@@ -102,9 +102,9 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                })(window,document,'script','dataLayer','GTM-KV4GTWK');`
             document.head.appendChild(script);
          }}
-      />
+      />*/}
 
-      <Script strategy="afterInteractive">
+      {/*<Script strategy="afterInteractive">
          {`
                !function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -117,7 +117,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                fbq('init', '645843929278280');
                fbq('track', 'PageView');
             `}
-      </Script>
+               </Script>*/}
 
       <Head>
          <title>{title}</title>
@@ -138,7 +138,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
 
          <link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
 
-         {/*process.env.NODE_ENV != "development" &&
+         {process.env.NODE_ENV != "development" &&
             <>
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/css/ae4ed9c503fd1e33.css" as="style"></link>
                <link rel="stylesheet" href="https://astounding-fudge-d98f38.netlify.app/_next/static/css/ae4ed9c503fd1e33.css" data-n-g=""></link>
@@ -148,7 +148,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/media/Gilroy-Regular.670696e4.ttf" as="font" type="font/ttf" data-next-font="size-adjust" />
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/media/Gilroy-Light.feb2c15a.ttf" as="font" type="font/ttf" data-next-font="size-adjust" />
             </>
-         */}
+         }
 
          <script type="application/ld+json">
             {JSON.stringify({
