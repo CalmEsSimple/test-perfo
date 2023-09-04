@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DivTrials = styled.section`
-  background-image: url("https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1e2c9303-dc9d-4a6d-11b2-32e1e164a000/fit=crop");
+  background-image: url("https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1e2c9303-dc9d-4a6d-11b2-32e1e164a000/fit=scale-down");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@ export const DivTrials = styled.section`
   }
 
   @media (max-width: 768px) {
-    background-image: url("https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d98a8ef0-52b8-4ed2-328b-89d0a608ba00/fit=crop");
+    background-image: url("https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d98a8ef0-52b8-4ed2-328b-89d0a608ba00/fit=scale-down");
     margin-top: 3%;
     margin-bottom: 5%;
     height: 40vh;

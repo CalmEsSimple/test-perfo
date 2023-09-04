@@ -38,7 +38,7 @@ const NavBarDesktop = ({ menuData, staticLandings, cartItemsCount, selectedLink,
     return (
         <>
             <LogoWrapper href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/"}>
-                <Logo src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1c402bf2-3576-4250-dd6e-80fef24a0400/fit=crop" alt="logo"/>
+                <Logo src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/1c402bf2-3576-4250-dd6e-80fef24a0400/fit=scale-down" alt="logo"/>
             </LogoWrapper>
             <NavBarWrapper>
                 <MenuWrapper>

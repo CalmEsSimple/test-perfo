@@ -31,8 +31,8 @@ const DreamRest = () => {
           <FirstRow href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/colchones"}>
             <DivImg>
               <Img
-                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/90892417-c12a-48e9-ee16-a83450c1ed00/fit=crop"
-                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/90892417-c12a-48e9-ee16-a83450c1ed00/fit=crop"
+                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/90892417-c12a-48e9-ee16-a83450c1ed00/fit=scale-down"
+                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/90892417-c12a-48e9-ee16-a83450c1ed00/fit=scale-down"
                 alt="colchon calm"
                 className="lazyload"
               />
@@ -46,8 +46,8 @@ const DreamRest = () => {
           <SecondRow href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/bases"}>
             <DivImg>
               <Img
-                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8fd40189-cf08-44f0-7476-0d606611d900/fit=crop"
-                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8fd40189-cf08-44f0-7476-0d606611d900/fit=crop"
+                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8fd40189-cf08-44f0-7476-0d606611d900/fit=scale-down"
+                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8fd40189-cf08-44f0-7476-0d606611d900/fit=scale-down"
                 alt="bases"
                 className="lazyload"
               />
@@ -62,8 +62,8 @@ const DreamRest = () => {
           <FirstColumn href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/almohadas"}>
             <DivImg>
               <Img
-                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/40b10026-960c-4a32-6045-85c6c3f22a00/fit=crop"
-                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/40b10026-960c-4a32-6045-85c6c3f22a00/fit=crop"
+                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/40b10026-960c-4a32-6045-85c6c3f22a00/fit=scale-down"
+                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/40b10026-960c-4a32-6045-85c6c3f22a00/fit=scale-down"
                 alt="almohadas"
                 className="lazyload"
               />
@@ -76,8 +76,8 @@ const DreamRest = () => {
           <SecondColumn href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/ropa-de-cama"}>
             <DivImg>
               <Img
-                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7879f78f-c7f3-46c5-be3a-9d7ad9e84300/fit=crop"
-                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7879f78f-c7f3-46c5-be3a-9d7ad9e84300/fit=crop"
+                data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7879f78f-c7f3-46c5-be3a-9d7ad9e84300/fit=scale-down"
+                src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7879f78f-c7f3-46c5-be3a-9d7ad9e84300/fit=scale-down"
                 alt="ropa de camas"
                 className="lazyload"
               />

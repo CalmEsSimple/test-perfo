@@ -93,7 +93,7 @@ export const ShippingCalc = ({ updateShipping, totalShipping, isCpCalc }: IProps
                     title="Calcular costo de envío"
                     aria-label="Calcular costo de envío"
                 >
-                    <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/0763ec49-0769-4464-c1b9-8772bbb2fb00/fit=crop" alt="Icono lápiz" />
+                    <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/0763ec49-0769-4464-c1b9-8772bbb2fb00/fit=scale-down" alt="Icono lápiz" />
                 </button>
             </span>
 

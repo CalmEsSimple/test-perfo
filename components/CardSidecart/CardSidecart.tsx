@@ -102,7 +102,7 @@ export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, 
                         className="product-delete-disabled">
                         <img
                             className="product-delete-img"
-                            alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e2550a75-61c1-4ed8-97ad-deea13f59e00/fit=crop"
+                            alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e2550a75-61c1-4ed8-97ad-deea13f59e00/fit=scale-down"
                         />
 
                     </button>
@@ -114,7 +114,7 @@ export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, 
                         className="product-delete">
                         <img
                             className="product-delete-img"
-                            alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/377bc4d8-bcc7-494f-926b-e814a73da300/fit=crop"
+                            alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/377bc4d8-bcc7-494f-926b-e814a73da300/fit=scale-down"
                         />
                     </button>
             }
