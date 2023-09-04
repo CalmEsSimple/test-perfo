@@ -54,7 +54,7 @@ const GalleryCorousel = ({images, pillId}: {images: string[], pillId?: string}) 
                   }}
                 >
                   <img
-                    src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/f52b9902-ab04-476b-6d34-61d99d8a0700/fit=scale-down"
+                    src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/f52b9902-ab04-476b-6d34-61d99d8a0700/thumbnail"
                     alt="pantalla-completa"
                   />
                 </BtnFullScreen>

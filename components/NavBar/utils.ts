@@ -33,14 +33,14 @@ export const menuData = [
         seeMoreText: "ver todos los colchones →",
         selectedProducts: [
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/02bce307-d2e0-4fe3-f976-0fff3c1c4f00/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/02bce307-d2e0-4fe3-f976-0fff3c1c4f00/thumbnail',
                 name: 'colchón original  →',
                 description:'El mejor puntuado de Argentina.',
                 redirect: "/colchones/colchon-calm",
                 id: "334",
             },
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7b5aa4a1-2850-4ebe-c499-2e142b51a000/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/7b5aa4a1-2850-4ebe-c499-2e142b51a000/thumbnail',
                 name: 'colchón híbrido →',
                 description:'Lo mejor de dos mundos.',
                 redirect: "/colchones/colchon-hibrido",
@@ -69,13 +69,13 @@ export const menuData = [
         seeMoreText: "ver todas las bases y sommiers →",
         selectedProducts: [
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cf02b442-6f6d-43f4-3f99-619239616c00/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cf02b442-6f6d-43f4-3f99-619239616c00/thumbnail',
                 name: 'base de hierro →',
                 redirect: "/bases/base",
                 id: "339",
             },
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8664bdcb-11d4-4dba-fe16-d52aa5948d00/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/8664bdcb-11d4-4dba-fe16-d52aa5948d00/thumbnail',
                 name: 'sommier calm →',
                 redirect: "/bases/sommier",
                 id: "1993786",
@@ -115,13 +115,13 @@ export const menuData = [
         seeMoreText: "ver todas las almohadas →",
         selectedProducts: [
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/dec473fc-90bc-4b82-a2e1-3f7762f90c00/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/dec473fc-90bc-4b82-a2e1-3f7762f90c00/thumbnail',
                 name: 'almohada inteligente →',
                 redirect: "/almohadas/almohada-inteligente",
                 id: "537",
             },
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/ec8385e2-99f1-4771-408c-3877f07b3000/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/ec8385e2-99f1-4771-408c-3877f07b3000/thumbnail',
                 name: 'alta almohada →',
                 redirect: "/almohadas/alta-almohada",
                 id: "1855350",
@@ -167,13 +167,13 @@ export const menuData = [
         seeMoreText: "ver toda la ropa de cama →",
         selectedProducts: [
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a4708d35-4df7-4a10-c3e8-3fdeb701d900/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a4708d35-4df7-4a10-c3e8-3fdeb701d900/thumbnail',
                 name: 'sábanas suavidad →',
                 redirect: "/ropa-de-cama/sabanas-suavidad",
                 id: "1835935",
             },
             {
-                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/c91f966d-42cb-4801-edab-b56bcd63fb00/fit=scale-down',
+                image_url: 'https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/c91f966d-42cb-4801-edab-b56bcd63fb00/thumbnail',
                 name: 'edredón abrazo →',
                 redirect: "/ropa-de-cama/edredon-abrazo",
                 id: "1851772",

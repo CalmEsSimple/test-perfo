@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BedDiv = styled.section`
-  background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/db0fbf37-64a9-42dc-c7c8-bc29b0df1000/fit=scale-down);
+  background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/db0fbf37-64a9-42dc-c7c8-bc29b0df1000/thumbnail);
   transition: all 0.5s;
   background-position: center center;
   min-height: 400px;
@@ -12,7 +12,7 @@ export const BedDiv = styled.section`
 
   @media (max-width: 768px) {
     min-height: 200px;
-    background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cdaf6cdb-48ef-4752-b813-63d88f389d00/fit=scale-down);
+    background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cdaf6cdb-48ef-4752-b813-63d88f389d00/thumbnail);
     transition: all 0.5s;
   }
 `;

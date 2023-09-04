@@ -34,7 +34,7 @@ const Modal = ({ children, isOpen, closeModal, titleHeader }: IProps) => {
                 <div className="header-cart">
                     <div className="header-cart-closer">
                         <p className="header-closer-1">{titleHeader}</p>
-                        <button title="Cerrar modal" aria-label="Cerrar modal" className="header-closer-2" onClick={closeModal}><img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/fit=scale-down" alt="cerrar carrito img" /></button>
+                        <button title="Cerrar modal" aria-label="Cerrar modal" className="header-closer-2" onClick={closeModal}><img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/thumbnail" alt="cerrar carrito img" /></button>
                     </div>
                 </div>
 

@@ -15,7 +15,7 @@ export const BedDiv = styled.section<{ $imgSrc: string }>`
   transition: all 0.5s;
   @media (max-width: 768px) {
     min-height: 200px;
-    background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cdaf6cdb-48ef-4752-b813-63d88f389d00/fit=scale-down);
+    background-image: url(https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/cdaf6cdb-48ef-4752-b813-63d88f389d00/thumbnail);
     transition: all 0.5s;
   }
 `;

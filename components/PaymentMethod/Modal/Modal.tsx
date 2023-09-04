@@ -33,7 +33,7 @@ const ComponentModal = ({showText}: {showText?: boolean}) => {
           <ImgModal
             onClick={() => modalHandle()}
             alt="boton mas"
-            src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e8e3136e-ea10-44af-35fa-bbb4460d4100/fit=scale-down"
+            src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e8e3136e-ea10-44af-35fa-bbb4460d4100/thumbnail"
           />
       </DivButtonModal>
       )

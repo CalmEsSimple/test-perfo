@@ -13,8 +13,8 @@ const Donate = ({withBorder}: {withBorder?: boolean}) => {
     <DivDonate $withBorder={withBorder}>
       <DivImage>
         <Img
-          src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/fit=scale-down"
-          data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/fit=scale-down"
+          src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/thumbnail"
+          data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/thumbnail"
           alt="compromiso solidario"
         ></Img>
       </DivImage>
