@@ -50,12 +50,12 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <Experience />
           <DreamRest />
           <Simple />
-          <Colchon colchon={colchon} />
+          {/*<Colchon colchon={colchon} />
           <RelatedProducts relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <Donate />
           <Score />
           <Trials />
-          <ImgDescButt />
+      <ImgDescButt />*/}
         </main>
       }
     </>
