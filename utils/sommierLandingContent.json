@@ -1,0 +1,114 @@
+{
+    "productId": "1993786",
+    "title": "sommier",
+    "boldTitle": "calm",
+    "selectedLink": "bases y sommiers",
+    "dreamDelivery": true,
+    "skus": "BASORISOM080000;BASORISOM100000;BASORISOM140000;BASORISOM160000;BASORISOM180000;BASORISOM200000",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/12/detalle_caja.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/12/sommiercaja.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/12/detalle_esquina.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/12/sommiercolchon.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"12 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>12 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 12.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones del ", "bold": "sommier calm"}
+    ],
+    "specsTexts": [
+        {
+            "title":"El sommier que viene en caja.",
+            "subtitle":"<br/>¿Alguna vez te imaginaste que eso era posible? Si, estas leyendo bien. Entra en cualquier ascensor, se desliza por cualquier escalera y en menos de 15 minutos lo tenés listo para mimir."
+        },
+        {
+            "title":"Chau tradición, hola innovación.",
+            "subtitle":"<br/>Reinventamos la idea de sommier. Su funda es removible y lavable. Lejos de parecer una pollera para tu cama, es simple y queda increíble en cualquier habitación."
+        },
+        {
+            "title":"Características",
+            "subtitle":"<br/><ul><li>Construida en <b>fenólico de pino de 18 mm</b>, aprovechamos casi el 100% de la placa.</li><li><b>Sin herramientas</b>, viene con todas la piezas necesarias y con tus manos es suficiente.</li><li>Funda gris de tejido de punto <b>removible</b>, fácil de limpiar y de combinar con tu cuarto.</li></ul>"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2022/12/Sommier-frente-fondo-blanco-King.webp",
+    "specsValues": [
+        { "name": "1 Plaza", "size": "80 x 190 cm x 32 cm" },
+        { "name": "Plaza y 1/2", "size": "100 x 190 cm x 32 cm" },
+        { "name": "2 Plazas", "size": "140 x 190 cm x 32 cm" },
+        { "name": "Queen", "size": "160 x 200 cm x 32 cm" },
+        { "name": "King", "size": "180 x 200 cm x 32 cm" },
+        { "name": "Superking", "size": "200 x 200 cm x 32 cm" }
+    ],
+    "hasUnboxingSection": false,
+    "unboxing": {
+        "title": "armalo en menos",
+        "boldTitle": "de 15 minutos",
+        "subtitle": "así se arma nuestro sommier, es simple.",
+        "image": "https://i.ytimg.com/vi/upluGcGL_dU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVihQMA8=&rs=AOn4CLDWSYNyx-rNOv6cwVC4GUyhffsoCw",
+        "videoId": "upluGcGL_dU"
+    },
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Qué garantía tiene el sommier?",
+            "answer":"<p>Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi sommier?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cómo se arma?",
+            "answer":"<p>El sommier es muy fácil de armar, en menos de 15 minutos la tenés lista! <a href='https://www.youtube.com/watch?v=upluGcGL_dU'>Acá</a> te dejamos el instructivo para que lo compruebes con tus propios ojos.</p>"
+        },
+        {
+            "nro": 5,
+            "title":"¿Cómo puedo lavar la funda?",
+            "answer":"<p>La funda puede lavarse en lavarropas a temperatura menor a 30 °C. No debe secarse en secarropas, solamente puede secarse tendida en un espacio ventilado y sin sol directo. No debe plancharse.</p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones ", "bold": "de la base"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Materiales",
+            "answer":"<p>Utilizamos los mejores materiales: hierro soldado y madera de eucalipto.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"Tamaño y peso",
+            "answer":"<p><ul><li><b>1 Plaza</b><ul><li>Dimensiones de la base: 190cm x 80cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 24kg.</li></ul></li></ul><ul><li><b>Plaza y 1/2</b><ul><li>Dimensiones de la base: 190cm x 100cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 26kg.</li></ul></li></ul><ul><li><b>2 Plazas</b><ul><li>Dimensiones de la base: 190cm x 140cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 32kg.</li></ul></li></ul><ul><li><b>Queen</b><ul><li>Dimensiones de la base: 200cm x 160cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 37kg.</li></ul></li></ul><ul><li><b>King</b><ul><li>Dimensiones de la base: 200cm x 180cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 40kg.</li></ul></li></ul><ul><li><b>Superking</b><ul><li>Dimensiones de la base: 200cm x 200cm x 35cm.</li><li>Tamaño de la caja: 18cm x 38cm x 198cm.</li><li>Peso del envío: 42kg.</li></ul></li></ul></p>"
+        },
+        {
+            "nro": 3,
+            "title":"País de fabricación",
+            "answer":"<p>Orgullosamente hecha 100% en argentina</p>"
+        }
+    ]
+}
+

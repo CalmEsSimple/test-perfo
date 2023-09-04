@@ -1,0 +1,17 @@
+[
+    {
+        "nro": 1,
+        "title":"¿Qué tamaño de almohada le corresponde a mi colchón?",
+        "answer":" <ul><li><b>Estándar: 65 cm x 35 cm x 12 cm</b> <br />ideal para colchones de una plaza, plaza y media, dos plazas y queen.</li><li><b>Grande: 80 cm x 40 cm x 12 cm</b> <br />Ideal para colchones de plaza y media, queen, king y superking.</li></ul>"
+    },
+    {
+        "nro": 2,
+        "title":"¿Cómo puedo lavar mi almohada?",
+        "answer":"Podes lavarla en seco a mano o en el lavarropas, sin otras prendas, con detergente líquido para ropa delicada y en programa para ropa delicada, con temperatura máxima de 30°C. En este caso tenés que incorporar bolas de lavado así tu almohada no pierde cuerpo."
+    },
+    {
+        "nro": 3,
+        "title":"¿Cada cuánto debería lavar la funda?",
+        "answer":"Te recomendamos lavarla cada 6 meses para mantenerla 10 puntos. "
+    }
+]

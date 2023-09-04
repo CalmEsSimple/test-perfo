@@ -1,0 +1,78 @@
+{
+    "productId": "1835538",
+    "title": "colchón",
+    "boldTitle": "para perros",
+    "selectedLink": "colchones",
+    "dreamDelivery": false,
+    "skus": "MASCOLPER060000;MASCOLPER085000;MASCOLPER110000",
+    "isSquare": true,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/Perro_1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/Perros_Cierre.mp4",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/Perro_2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/Perro_3.webp"
+    ],
+    "layoutImagesHaveVideo": true,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones del ", "bold": "colchón para perros"}
+    ],
+    "specsTexts": [
+        {
+            "title":"El colchón que tu mejor amigx merece",
+            "subtitle":"<br/><br/>Tela Chenille con relleno de vellón siliconado en fibroesferas. Guau",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2022/06/perros_mobile_1.webp"
+        },
+        {
+            "title":"Suave y resistente",
+            "subtitle":"<br/><br/>La suavidad que tu pichicho se merece para tener la misma calidad de descanso que vos.",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2022/06/perros_mobile_2.webp"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2022/06/foto-espacio-3-medidas-1.webp",
+    "specsValues": [
+        { "name": "Pequeño", "size": "60 x 40 cm","description": "*ideal para perros hasta 10kg" },
+        { "name": "Mediano", "size": "85 x 60 cm","description": "*ideal para perros hasta 20kg"  },
+        { "name": "Grande", "size": "110 x 80 cm","description": "*ideal para perros hasta 35kg"  }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Por qué el colchón para perros Calm?",
+            "answer":"<p>Porque tiene una tela con mayor resistencia a desgarros, cuenta con funda desmontable para lavar por separado, relleno de vellón siliconado extra virgen para garantizar un descanso súper placentero.  Cuenta con un pequeño efecto nido generado mediante costuras para mayor comodidad.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi colchón para perros?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Puedo lavar la funda por separado?",
+            "answer":"<p>¡Claro! Recomendamos poner la funda en remojo en un recipiente con abundante agua fría y jabón neutro durante 20 minutos y removerla suavemente. No recomendamos lavarla en lavarropas.</p>"
+        }
+    ]
+}

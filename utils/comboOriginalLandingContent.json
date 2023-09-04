@@ -1,0 +1,54 @@
+{
+    "productId": "1997330",
+    "title": "combo",
+    "boldTitle": "original.",
+    "selectedLink": "combos",
+    "dreamDelivery": false,
+    "comboIds": ["334", "339"],
+    "skus": "C80;C100;C140;C160;C180;C200;CP80;CP100;CP140;CP160;CP180;CP200;B80;B100;B140;B160;B180;B200",
+    "specsSectionTitles": [
+        {"title": "dimensiones del ", "bold": "combo original"}
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2022/12/dimensionescombo.webp",
+    "specsValues": [
+        { "name": "1 Plaza", "size": "80 x 190 cm" },
+        { "name": "Plaza y 1/2", "size": "100 x 190 cm" },
+        { "name": "2 Plazas", "size": "140 x 190 cm" },
+        { "name": "Queen", "size": "160 x 200 cm" },
+        { "name": "King", "size": "180 x 200 cm" },
+        { "name": "Superking", "size": "200 x 200 cm" }
+    ],
+    "faqAccordionTitle": {"title": "", "bold": "preguntas frecuentes sobre colchones calm"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Qué garantía tiene?",
+            "answer":"<p>Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Cuándo voy a recibir mi combo original?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cuánto peso soporta el colchón?",
+            "answer":"<p>Soporta hasta <b>120kg por lado</b> sin perder los beneficios.</p>"
+        },
+        {
+            "nro": 5,
+            "title":"¿Cuánto tiempo puede estar el colchón en la caja?",
+            "answer":"<p>Si compraste un colchón puede estar como máximo 2 meses en la caja sin que pierda las propiedades.</p>"
+        },
+        {
+            "nro": 6,
+            "title":"¿Cómo se arma la base?",
+            "answer":"<p>La base es muy fácil de armar, en menos de 15 minutos la tenés lista! <a href='https://drive.google.com/file/d/1W2bWCzFbxhRZ1y8GQmhnrNw2CzACEOgI/view?usp=sharing'>Acá</a> te dejamos el instructivo para que lo compruebes con tus propios ojos.</p>"
+        }
+    ]
+}

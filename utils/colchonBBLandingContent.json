@@ -1,0 +1,85 @@
+{
+    "productId": "1835498",
+    "title": "colchón",
+    "boldTitle": "bb",
+    "selectedLink": "colchones",
+    "dreamDelivery": false,
+    "skus": "BEBCOLORI100000;BEBCOLORI140000",
+    "isSquare": true,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_3.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_4.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones del ", "bold": "colchón bb"}
+    ],
+    "specsTexts": [
+        {
+            "title":"Funda lavable",
+            "subtitle":"<br/><br/>Funda desmontable para que puedas <b>lavarla cuando necesites.</b><br/><br/>Armado de <b>tejido de punto</b> para asegurar el descanso de tu bebé.",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_fundalavable.webp"
+        },
+        {
+            "title":"Zzz",
+            "subtitle":"<br/><br/>Colchón bb para que toda la familia <b>duerma tranquila.</b><br/><br/>Con la firmeza justa para asegurar <b>el cuidado de tu bebé.</b>",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2022/06/bb_zzz.webp"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2022/06/foto-espacio-3-medidas-1.webp",
+    "specsValues": [
+        { "name": "Chico", "size": "100 x 70 x 9 cm" },
+        { "name": "Grande", "size": "140 x 80 x 9 cm" }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Por qué el colchón bb Calm?",
+            "answer":"<p>Porque tiene la firmeza justa para evitar las asfixia del bebé manteniendo el confort con la superficie de apoyo de tejido de punto de 200 gramos y cuenta con funda desmontable para lavar por separado en caso de manchas o derrames.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi colchón para bebes?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones ", "bold": "del colchón"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Materiales del colchón bb",
+            "answer":"<p><ul><li>Espuma de <b>18 kg/m3</b> de densidad</li><li>Tejido de punto de <b>200 gramos</b></li></ul></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Tamaño y peso",
+            "answer":"<p><b>Chico</b><br/>Dimensiones del colchón: 70 cm x 100 cm x 9 cm<br/>Tamaño de la caja: 73 cm x 103 cm x 12 cm<br/><br/><b>Grande</b><br/>Dimensiones del colchón: 80 cm x 140 cm x 9 cm.<br/>Tamaño de la caja: 83 cm x 143 cm x 12 cm</p>"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "productId": "1855350",
+    "title": "alta",
+    "boldTitle": "almohada",
+    "selectedLink": "almohadas",
+    "dreamDelivery": false,
+    "skus": "ALMALMSIM065000;ALMALMSIM080000",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/alta1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/alta3.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/alta2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/alta4.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones de la ", "bold": "alta almohada"}
+    ],
+    "specsTexts": [
+        {
+            "title":"Suave y espumosa, no la vas a poder soltar",
+            "subtitle":"<br/>Gracias a su relleno de <b>vellón siliconado</b> y su tela hipoalergénica genera una sensación inigualable: <b>como dormir en una nube</b>, pero mejor."
+        },
+        {
+            "title":"Una almohada que se adapta a vos",
+            "subtitle":"<br/>Su esponjosidad y suavidad la hace tan cómoda como <b>adaptable a la posición que elijas.</b>"
+        },
+        {
+            "title":"Características",
+            "subtitle":"<br/><ul><li><b>Vellón Siliconado</b> (traspirable y alergénico)</li><li>Tela <b>100% poliéster</b> 70grs. (antibacteriana)</li></ul>"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2022/05/Alta-Almohada-1.webp",
+    "specsValues": [
+        { "name": "Mediana", "size": "65 x 45cm" },
+        { "name": "Grande", "size": "80 x 45cm" }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Qué almohada le corresponde a mi colchón?",
+            "answer":"<p><ul><li><b>Estándar: 65 cm x 45 cm</b><br/>ideal para colchones de una plaza, plaza y media, dos plazas y queen.</li><li><b>Grande: 80 cm x 45 cm</b><br/>Ideal para colchones de plaza y media, queen, king y superking.</li></ul></p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Cómo puedo lavar mi almohada?",
+            "answer":"<p>Podés lavarla en seco a mano o en el lavarropas, sin otras prendas, con detergente líquido para ropa delicada y en programa para ropa delicada, con temperatura máxima de 30 °C. En este caso tenés que incorporar bolas de lavado así tu almohada no pierde cuerpo.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cómo se seca una vez lavada?",
+            "answer":"<p>Recomendamos que el secado sea al aire libre, en horizontal y a la sombra.</p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cada cuánto tiempo tengo que cambiar mi almohada?",
+            "answer":"<p>La almohada tiende a perder un poco de cuerpo luego de 2 años de uso. Si esto representara un inconveniente para tu postura de sueño, te recomendamos cambiarla.</p>"
+        }
+    ]
+}

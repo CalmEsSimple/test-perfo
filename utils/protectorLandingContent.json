@@ -1,0 +1,70 @@
+{
+    "productId": "1851789",
+    "title": "protector impermeable",
+    "boldTitle": "de colchón",
+    "selectedLink": "ropa de cama",
+    "dreamDelivery": false,
+    "skus": "BLAACCPRO080000;BLAACCPRO100000;BLAACCPRO140000;BLAACCPRO160000;BLAACCPRO180000;BLAACCPRO200000",
+    "isSquare": true,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/protector_1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/VID_protector_agua-1.mp4",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/protector_2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/06/protector_3.webp"
+    ],
+    "layoutImagesHaveVideo": true,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsTexts": [
+        {
+            "title":"Alarga la vida de tu colchón",
+            "subtitle":"<br/><br/>Desayuna en la cama sin preocuparte por manchar el colchón. El protector asegura el colchón de cualquier contingencia, alargando su vida útil."
+        },
+        {
+            "title":"Fácil de lavar",
+            "subtitle":"<br/><br/>100% impermeable y fácil de lavar."
+        },
+        {
+            "title":"Materiales",
+            "subtitle":"<br/><br/>Tejido soft + PVC (policloruro de vinilo).<br/><br/>Del lado que está en contacto con el cuerpo, la tela es suave. Del lado que está en contacto con el colchón, tiene textura rugosa para evitar deslizamientos."
+        }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Por qué el protector impermeable de colchón Calm?",
+            "answer":"<p>Porque permite proteger el colchón y extender su vida útil ante cualquier tipo de derrames y manchas, sobre todo en casos de incontinencia (por ejemplo si estás en período de lactancia, si dormís con bebés y/o perros, sudás en exceso u orinás la cama). Además, su presencia casi casi que no se nota.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para que puedas enamorarte del protector de tu colchón necesitas pasar tiempo con él. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi protector para colchón?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        }
+    ],
+    "reviewsTitle": {
+        "title":"",
+        "bold": "El protector de colchón de tus sueños"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "productId": "1851772",
+    "title": "edredón",
+    "boldTitle": "abrazo",
+    "selectedLink": "ropa de cama",
+    "dreamDelivery": false,
+    "skus": "BLACUBEDR100000;BLACUBEDR140000;BLACUBEDR180000;BLACUBEDR200000",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/edredon1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/edredon2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/edredon3.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/edredon4.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsTexts": [
+        {
+            "title":"Maridalo con la Funda de Tusor 4 Estaciones",
+            "subtitle":"<br/><br/>El edredón que <b>te abraza</b> en las noches de invierno."
+        },
+        {
+            "title":"Vestí de gala tu colchón",
+            "subtitle":"<br/><br/>Nuestro Edredón Abrazo está milimétricamente calculado para que calce <b>a la perfección</b> en la funda de Tusor 4 Estaciones."
+        },
+        {
+            "title":"Tela",
+            "subtitle":"<br/><ul><li>Relleno de <b>Vellón Siliconado</b></li><li><b>Tela de microfibra</b> 70 gramos</li><li><b>Antbacteriano</b></li><li><b>Suave y liviano</b></li></ul>"
+        }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Qué beneficios tiene usar el edredón con la funda de tusor 4 estaciones?",
+            "answer":"<p>La funda es ligera y transpirable. El edredón combate el frío y la humedad. Además, están diseñados milimétricamente para complementarse. Entre ambos son la combinación perfecta para el invierno.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi edredón abrazo?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cómo lavar mi edredón abrazo?",
+            "answer":"<p><b>Lavado en lavarropas:</b><br/><br/><ul><li><b>¿Cómo cuidar la microfibra?</b> Usá jabón neutro y líquido, que no incluya cloro ni perfumes. No utilices nunca suavizantes. Tampoco uses blanqueadores o lejías.</li><li><b>¿Cómo cuidar el edredón en el lavado?</b> El lavado del edredón de microfibra se debe realizar en agua fría. Utilizar un ciclo de lavado de ropa delicada por lo sensible de la pieza. Los detergentes para lavar deben ser suaves y evitar el uso de productos fuertes.</li><li><b>¿Cuál es la mejor lavadora para lavar edredones?</b>Te recomendamos una lavadora de 8 kg.</li></ul><br/><br/><b>Lavado a mano:</b><br/><br/>Si querés saber en detalle como lavar tu edredón abrazo <b>a mano</b> <a href='https://calmessimple.com.ar/como-lavar-un-edredon-una-guia-paso-a-paso/' target='_blank'>hace click acá</a></p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones del ", "bold": "edredón abrazo"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Medidas y tamaños",
+            "answer":"<p><ul><li><b>Plaza o Plaza y 1/2 – 160 x 240</b> (para colchones de 80 y 100 de ancho)</li><li><b>2 Plazas – 220 x 240</b> (para colchones de 140 de ancho)</li><li><b>Queen o King – 240 x 240</b> (para colchones de 160 y 180 de ancho)</li><li><b>Superking – 280 x 240</b>(para colchones de 200 de ancho)</li></ul></p>"
+        }
+    ],
+    "reviewsTitle": {
+        "title":"Opiniones de ",
+        "bold": "clientes reales"
+    }
+}

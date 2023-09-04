@@ -1,0 +1,76 @@
+{
+    "productId": "2023992",
+    "title": "sábanas suavidad",
+    "boldTitle": "feria calm",
+    "selectedLink": "feria",
+    "dreamDelivery": false,
+    "skus": "BLASABMIC160003;BLASABMIC160002;BLASABMIC160001;BLASABMIC16000;BLASABMIC100000;BLASABMIC100001;BLASABMIC100002;BLASABMIC100003;BLASABMIC200000;BLASABMIC200001;BLASABMIC200002;BLASABMIC200003",
+    "skusFeria": "OBLSABMIC100000;OBLSABMIC100001;OBLSABMIC100002;OBLSABMIC100003;OBLSABMIC160000;OBLSABMIC160001;OBLSABMIC160002;OBLSABMIC160003;OBLSABMIC200000;OBLSABMIC200001;OBLSABMIC200002;OBLSABMIC200003",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/04/sabsua1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/04/sabsua2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/04/sabsua3.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/04/sabsua4.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsTexts": [
+        {
+            "title":"Suave como la brisa del verano",
+            "subtitle":"<br/><br/>Un hit que no puede faltar en tu habitación. <b>Advertencia:</b> te va a costar salir de la cama."
+        },
+        {
+            "title":"Vestí de gala tu colchón",
+            "subtitle":"<br/><br/>Las <b>sábanas elegante sport</b> de nuestra colección. Ideales para colchones altos."
+        },
+        {
+            "title":"Tela",
+            "subtitle":"<br/><ul><li><b>100% microfibra</b> piel de durazno (poliéster)</li><li>Resistente a <b>desgarros</b></li><li>Resistente a <b>manchas</b></li><li><b>No se estira</b> ni se encoge.</li><li><b>Antibacteriana.</b></li><li><b>Repele humedad</b> y olores.</li></ul>"
+        }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Por qué las Sábanas Suavidad?",
+            "answer":"<p>Porque son duraderas y muuuy suaves, posta. Tienen una alta resistencia a desgarros y manchas, repelen humedad y también olores. Además, no se estiran ni se encogen.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tus sábanas necesitas pasar tiempo con ellas. En el caso que no le guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mis sábanas?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones de las ", "bold": "sábanas suavidad"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Medidas y tamaños",
+            "answer":"<p><ul><li><b>PLAZA O PLAZA Y 1/2:</b><ul><li>Superior o plana: 265 cm x 170 cm</li><li>Ajustable: 100 x 200 cm (35 cm de altura por lado)</li><li>Funda: 50 x 70 cm (1 unidad)</li><li>Quedan holgadas para colchones de 80 cm de ancho</li><li>Calzan perfecto para colchones de 100 cm de ancho</li></ul></li></ul><ul><li><b>2 PLAZAS:</b><ul><li>Sabana plana 230 cm x 245 cm</li><li>Sabana ajustable 193 cm x 143 cm x 32 cm</li><li>Fundas: 50 cm x 70 cm (2 unidades)</li><li>Calzan perfecto para colchones de 140 cm de ancho</li><li>Para colchón de: 140 x 190 x 30 cm</li></ul></li></ul><ul><li><b>QUEEN:</b><ul><li>Superior o plana: 235 x 265 cm</li><li>Ajustable: 160 x 200 cm (35 cm de altura por lado)</li><li>Fundas: 50 x 80 cm (2 unidades)</li><li>Quedan holgadas para colchones de 140 cm de ancho</li><li>Calzan perfecto para colchones de 160 cm de ancho</li></ul></li></ul><ul><li><b>KING O SUPERKING:</b><ul><li>Superior o plana: 265 x 275 cm</li><li>Ajustable: 200 x 200 cm (+35 de altura por lado)</li><li>Fundas: 50 x 100 cm (2 unidades)</li><li>Quedan holgadas para colchones de 180 cm de ancho</li><li>Calzan perfecto para colchones de 200 cm de ancho</li></ul></li></ul></p>"
+        }
+    ]
+}
+

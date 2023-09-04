@@ -1,0 +1,45 @@
+{
+    "Especification":
+    [
+    {
+        "nro": 1,
+        "title":"Materiales",
+        "answer":"Utilizamos los mejores materiales: hierro soldado y madera de eucalipto."
+    },
+    {
+        "nro": 2,
+        "title":"Tamaño y peso",
+        "answer":"      <div><p><b>1 Plaza</b></p><p><b>Dimensiones de la base: 190cm x 80cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 24kg.</b></p><br /><p><b>Plaza y 1/2</b></p><p><b>Dimensiones de la base: 190cm x 100cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 26kg.</b></p><br /><p><b>2 Plazas</b></p><p><b>Dimensiones de la base: 190cm x 140cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 32kg.</b></p><br /><p><b>Queen</b></p><p><b>Dimensiones de la base: 200cm x 160cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 37kg</b></p><br /><p><b>King</b></p><p><b>Dimensiones de la base: 200cm x 180cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 40kg.</b></p><br /><p><b>Superking</b></p><p><b>Dimensiones de la base: 200cm x 200cm x 35cm.</b></p><p><b>Tamaño de la caja: 18cm x 38cm x 198cm.</b></p><p><b>Peso del envío: 42kg.</b></p></div>"
+    },
+    {
+        "nro": 2,
+        "title":"País de fabricación",
+        "answer":"Orgullosamente hecha 100% en argentina"
+    }
+
+],
+"FrequentQuestions":
+[
+    {
+        "nro": 1,
+        "title":"¿Qué garantía tiene la base?",
+        "answer":"Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso."
+    },
+    {
+        "nro": 2,
+        "title":"¿Cuándo voy a recibir mi base?",
+        "answer":"Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'>este link</a>."
+    },
+    {
+        "nro": 3,
+        "title":"¿Cuánto peso soporta?",
+        "answer":"Soporta hasta 150kg por lado."
+    },
+    {
+        "nro": 4,
+        "title":"¿Cómo se arma?",
+        "answer":"La base es muy fácil de armar, en menos de 15 minutos la tenés lista! <a href='https://drive.google.com/file/d/1W2bWCzFbxhRZ1y8GQmhnrNw2CzACEOgI/view?usp=sharing'>Acá</a> te dejamos el instructivo para que lo compruebes con tus propios ojos."
+    }
+]
+
+}

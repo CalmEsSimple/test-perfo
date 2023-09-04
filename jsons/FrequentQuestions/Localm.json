@@ -1,0 +1,27 @@
+[
+    {
+        "nro": 1,
+        "title":"¿Cuáles son los horarios del localm?",
+        "answer":"El LoCalm abre de lunes a sábados de 11 a 20 hs."
+    },
+    {
+        "nro": 2,
+        "title":"¿Cuál es la dirección del localm?",
+        "answer":"El LoCalm está situado en Godoy Cruz 1737."
+    },
+    {
+        "nro": 3,
+        "title":"¿Los productos comprados en el localm tienen 30 noches de prueba?",
+        "answer":"Sí, los productos comprados en el LoCalm tienen la misma propuesta de valor que en nuestra web."
+    },
+    {
+        "nro": 4,
+        "title":"¿Puedo donar mi colchón si compro en el localm?",
+        "answer":"Sí, solo tenes que avisarnos y coordinamos el retiro de tu ex-colchón por tu domicilio."
+    },
+    {
+        "nro": 5,
+        "title":"¿Qué métodos de pago aceptan en el localm?",
+        "answer":"Podés pagar con todos los medios de pago habilitados en nuestra web, aunque considerá que si pagás con transferencia no vas a poder llevarte el producto en el momento."
+    }
+]

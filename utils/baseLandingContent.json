@@ -1,0 +1,112 @@
+{
+    "productId": "339",
+    "title": "base de cama",
+    "boldTitle": "calm",
+    "selectedLink": "bases y sommiers",
+    "dreamDelivery": true,
+    "skus": "B80;B100;B140;B160;B180;B200",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/07/imgbase_1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/07/imgbase_4.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/07/imgbase_2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/07/imgbase_3.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"12 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>12 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 12.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones de la ", "bold": "base para tu colchón"}
+    ],
+    "specsTexts": [
+        {
+            "title":"Fácil de armar",
+            "subtitle":"<br/><br/>Pusimos especial foco en este punto y estamos orgullosos de <b>lo fácil que es.</b> En tan solo <b>15 minutos</b> tenes lista tu nueva base! Olvidate de sufrir en las mudanzas, esta base es <b>muy simple de trasladar.</b>"
+        },
+        {
+            "title":"Va muy bien con tu colchón",
+            "subtitle":"<br/><br/>El apoyo en los listones de madera de eucalipto y el espacio optimo entre cada uno, hace que <b>la vida útil</b> de tu colchón sea mayor, así como también permite el paso de aire para que duermas <b>siempre fresco.</b>"
+        },
+        {
+            "title":"Guardado inteligente",
+            "subtitle":"<br/><br/>Nuestra base tiene 35cm de alto, siendo un muy buen lugar para aprovechar en los departamentos poco espaciosos, así como también por algunos amigos 🐶 🐱"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2019/10/base-1-pata.webp",
+    "specsValues": [
+        { "name": "1 Plaza", "size": "80 x 190 cm" },
+        { "name": "Plaza y 1/2", "size": "100 x 190 cm" },
+        { "name": "2 Plazas", "size": "140 x 190 cm" },
+        { "name": "Queen", "size": "160 x 200 cm" },
+        { "name": "King", "size": "180 x 200 cm" },
+        { "name": "Superking", "size": "200 x 200 cm" }
+    ],
+    "hasUnboxingSection": false,
+    "hasTutorialSection": {
+        "show": true,
+        "title": "llega en caja y ",
+        "boldTitle": "se arma así de fácil",
+        "videoId": "nDQv4PXpOA0"
+    },
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Qué garantía tiene la base?",
+            "answer":"<p>Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi base?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cuánto peso soporta?",
+            "answer":"<p>Soporta hasta 150kg por lado.</p>"
+        },
+        {
+            "nro": 5,
+            "title":"¿Cómo se arma?",
+            "answer":"<p>La base es muy fácil de armar, en menos de 15 minutos la tenés lista! <a href='https://drive.google.com/file/d/1W2bWCzFbxhRZ1y8GQmhnrNw2CzACEOgI/view?usp=sharing'>Acá</a> te dejamos el instructivo para que lo compruebes con tus propios ojos.</p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones ", "bold": "de la base"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Materiales",
+            "answer":"<p>Utilizamos los mejores materiales: hierro soldado y madera de eucalipto.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"Tamaño y peso",
+            "answer":"<p><b>1 Plaza</b><br/>Dimensiones del colchón: 190cm x 80cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 24kg.<br/><br/><b>Plaza y 1/2</b><br/>Dimensiones del colchón: 190cm x 100cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 26kg.<br/><br/><b>2 Plazas</b><br/>Dimensiones del colchón: 190cm x 140cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 32kg.<br/><br/><b>Queen</b><br/>Dimensiones del colchón: 200cm x 160cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 37kg.<br/><br/><b>King</b><br/>Dimensiones del colchón: 200cm x 180cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 40kg.<br/><br/><b>Superking</b><br/>Dimensiones del colchón: 200cm x 200cm x 35cm.<br/>Tamaño de la caja: 18cm x 38cm x 198cm.<br/>Peso del envío: 42kg.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"País de fabricación",
+            "answer":"<p>Orgullosamente hecha 100% en argentina</p>"
+        }
+    ]
+}

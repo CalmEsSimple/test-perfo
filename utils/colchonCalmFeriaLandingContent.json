@@ -1,0 +1,41 @@
+{
+    "productId": "1952731",
+    "title": "colchón",
+    "boldTitle": "feria calm",
+    "selectedLink": "feria",
+    "dreamDelivery": false,
+    "skus": "C80;C100;C140;C160;C180;C200;CP80;CP100;CP140;CP160;CP180;CP200",
+    "skusFeria": "OCOESPORI100000;OCOESPORI080000;OCOESPORI140000;OCOESPORI160000;OCOESPORI180000;OCOESPORI200000;OCOESPPLU080000;OCOESPPLU100000;OCOESPPLU140000;OCOESPPLU160000;OCOESPPLU180000;OCOESPPLU200000",
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Qué garantía tiene el colchón?",
+            "answer":"<p>Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Cuándo voy a recibir mi colchón?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cuánto peso soporta?",
+            "answer":"<p>Soporta hasta <b>120kg por lado</b> sin perder los beneficios.</p>"
+        },
+        {
+            "nro": 5,
+            "title":"¿Qué es y como funciona la Feria Calm?",
+            "answer":"<p>Feria Calm es una alternativa exclusiva para vos que buscás el colchón mejor puntuado de Argentina con un gran descuento. Ofrecemos colchones abiertos en perfecto estado a precio amigue, con un 50% de descuento, pagando en efectivo o transferencia. En esta página realizas el proceso de compra como lo harías normalmente en nuestra web.</p>"
+        }
+    ],
+    "reviewsTitle": {
+        "title":"El colchón ",
+        "bold": "mejor puntuado de Argentina"
+    }
+}

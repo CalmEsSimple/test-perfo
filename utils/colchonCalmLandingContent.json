@@ -1,0 +1,137 @@
+{
+    "productId": "334",
+    "title": "colchón",
+    "boldTitle": "original",
+    "selectedLink": "colchones",
+    "dreamDelivery": true,
+    "skus": "C80;C100;C140;C160;C180;C200;CP80;CP100;CP140;CP160;CP180;CP200",
+    "isSquare": true,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2019/10/caja.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2019/10/video_firmeza-1.webm",
+        "https://calmessimple.com.ar/wp-content/uploads/2019/10/personas.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2019/10/detalle.webp"
+    ],
+    "layoutImagesHaveVideo": true,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"12 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>12 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 12.</b></p>"
+        }
+    ],
+    "specsSectionTitles": [
+        {"title": "dimensiones del ", "bold": "colchón calm"},
+        {"title": "radiografía del ", "bold": "colchón calm"}
+    ],
+    "specsTexts": [
+        {
+            "title":"Apostamos que te va a encantar",
+            "subtitle":"<br/><br/><b>99 de cada 100</b> personas eligen quedarse con su calm. Si no ocurre el flechazo, <b>te devolvemos el 100% de tu dinero</b>, posta.",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2019/10/colchon_mobile.webp"
+        },
+        {
+            "title":"Ni muy muy, ni tan tan...",
+            "subtitle":"<br/><br/>En las pruebas que realizamos y las pocas devoluciones que recibimos, la mitad dice que el colchón es <b>demasiado firme</b>, y la otra mitad dice que es <b>demasiado suave</b>, por lo que estamos seguros de que hemos encontrado <b>el punto \"justo\"</b>",
+            "mobileImg": "https://calmessimple.com.ar/wp-content/uploads/2019/10/firmeza_mobile.webp"
+        }
+    ],
+    "specsImages": "https://calmessimple.com.ar/wp-content/uploads/2019/10/colchon_dimensiones.webp",
+    "specsValues": [
+        { "name": "1 Plaza", "size": "80 x 190 cm" },
+        { "name": "Plaza y 1/2", "size": "100 x 190 cm" },
+        { "name": "2 Plazas", "size": "140 x 190 cm" },
+        { "name": "Queen", "size": "160 x 200 cm" },
+        { "name": "King", "size": "180 x 200 cm" },
+        { "name": "Superking", "size": "200 x 200 cm" }
+    ],
+    "radiographyImage": "https://calmessimple.com.ar/wp-content/uploads/2019/10/1270x786_CorteInteriorOriginal.webp",
+    "radiographyTexts": [
+        {
+            "title":"1. Capa de confort",
+            "subtitle":"Espuma Soft HD de 4 cm de altura que aporta adaptabilidad, moldeado al cuerpo, confort y respirabilidad."
+        },
+        {
+            "title":"2. Capa de soporte",
+            "subtitle":"Espuma de alta densidad (super firme) de 30kg/m3. En el colchón Calm Original esta capa es de 18 cm de alto y en el Original Plus de 24 cm. Ambas alturas aportan la misma durabilidad, soporte y firmeza."
+        }
+    ],
+    "blogPosts": {
+        "firstImage": "https://calmessimple.com.ar/wp-content/uploads/2019/10/img_banner_compromisodescansadxs.webp",
+        "secondImage": "https://calmessimple.com.ar/wp-content/uploads/2019/10/img_banner_protector.webp",
+        "firstTitle": "Doná tu ex colchón y le buscamos un nuevo hogar.",
+        "secondTitle": "Alargá la vida útil de tu colchón.",
+        "firstText": "Ahora no 1, si no 2 van a descansar mejor",
+        "secondText": "Alargá la vida útil de tu colchón con nuestro protector impermeable de pvc.",
+        "firstButtonText": "quiero donar",
+        "secondButtonText": "ver protector de colchón",
+        "firstButtonLink": "https://calmessimple.com.ar/compromiso-descansados/",
+        "secondButtonLink": "https://calmessimple.com.ar/producto/protector-impermeable-de-colchon/"
+    },
+    "hasUnboxingSection": true,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Qué garantía tiene el colchón?",
+            "answer":"<p>Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Cuándo voy a recibir mi colchón?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 4,
+            "title":"¿Cuánto peso soporta?",
+            "answer":"<p>Soporta hasta <b>120kg por lado</b> sin perder los beneficios.</p>"
+        },
+        {
+            "nro": 5,
+            "title":"¿Cuánto tiempo puede estar el colchón en la caja?",
+            "answer":"<p>Si compraste un colchón puede estar como máximo 2 meses en la caja sin que pierda las propiedades.</p>"
+        },
+        {
+            "nro": 6,
+            "title":"¿Con qué base es compatible mi colchón?",
+            "answer":"<p>Cualquier base que permita el flujo de aire en todo el colchón va bien. Si tu base es similar a la base de cama Calm, con tabiques que tengan espacio entre si y ventilación del colchón en la parte de abajo, va perfecto.<br/><br/>Si seguís dudando <b>mandanos una foto</b>  de tu base para que te asesoremos 🙂</p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones ", "bold": "del colchón"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Materiales de la funda",
+            "answer":"<p>Una funda de tejido de punto suave y respirable para mantener la frescura que tu cuerpo necesita.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"Tamaño y peso",
+            "answer":"<p><b>Colchón Calm</b><br/><b>1 Plaza</b><br/>Dimensiones del colchón: 190cm x 80cm x 22cm.<br/>Tamaño de la caja: 108 cm x 41 cm x 41 cm.<br/>Peso del envío: 14kg.<br/><br/><b>Plaza y 1/2</b><br/>Dimensiones del colchón: 190cm x 100cm x 22cm.<br/>Tamaño de la caja: 108 cm x 41 cm x 41 cm<br/>Peso del envío: 17.5kg.<br/><br/><b>2 Plazas</b><br/>Dimensiones del colchón: 190cm x 140cm x 22cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 22.5kg.<br/><br/><b>Queen</b><br/>Dimensiones del colchón: 200cm x 160cm x 22cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 27kg.<br/><br/><b>King</b><br/>Dimensiones del colchón: 200cm x 180cm x 22cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 31kg.<br/><br/><b>Superking</b><br/>Dimensiones del colchón: 200cm x 200cm x 22cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 34.5kg.<br/><br/><b>Colchón Calm Plus</b><br/><b>1 Plaza</b><br/>Dimensiones del colchón: 190cm x 80cm x 28cm.<br/>Tamaño de la caja: 108 cm x 41 cm x 41 cm.<br/>Peso del envío: 18.5kg.<br/><br/><b>Plaza y 1/2</b><br/>Dimensiones del colchón: 190cm x 100cm x 28cm.<br/>Tamaño de la caja: 108 cm x 41 cm x 41 cm.<br/>Peso del envío: 22.5kg.<br/><br/><b>2 Plazas</b><br/>Dimensiones del colchón: 190cm x 140cm x 28cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 28kg.br/><br/><b>Queen</b><br/>Dimensiones del colchón: 200cm x 160cm x 28cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 32kg.<br/><br/><b>King</b><br/>Dimensiones del colchón: 200cm x 180cm x 28cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 35kg.<br/><br/><b>Superking</b><br/>Dimensiones del colchón: 200cm x 200cm x 28cm.<br/>Tamaño de la caja: 110 cm x 51 cm x 51 cm.<br/>Peso del envío: 38kg.<br/><br/></p>"
+        },
+        {
+            "nro": 3,
+            "title":"Materiales del colchón",
+            "answer":"<p><b>Colchón Calm</b><br/><br/>La espuma es 100% producida en argentina y tiene dos capas:<br/><br/>Capa de confort: 4 cm de altura de una espuma soft HD, que aporta adaptabilidad/moldeado al cuerpo, confort y pasaje de aire (respirabilidad).<br/><br/>Capa de soporte: 18 cm de espuma de alta densidad (super firme) de 30 kg/m3. que aporta durabilidad, soporte y mucha firmeza.<br/><br/><b>Colchón Calm Plus</b><br/><br/>La espuma es 100% producida en argentina y tiene dos capas:<br/><br/>Capa de confort: 4 cm de altura de una espuma soft HD, que aporta adaptabilidad/moldeado al cuerpo, confort y pasaje de aire (respirabilidad).<br/><br/>Capa de soporte: 24 cm de espuma de alta densidad (super firme) de 30 kg/m3. que aporta durabilidad, soporte y mucha firmeza.<br/><br/></p>"
+        }
+    ],
+    "reviewsTitle": {
+        "title":"El colchón ",
+        "bold": "mejor puntuado de Argentina"
+    }
+}

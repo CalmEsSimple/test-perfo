@@ -1,0 +1,81 @@
+{
+    "Products": [
+    {
+        "nro": 1,
+        "title":"¿Son reales las 30 noches de prueba?",
+        "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tus productos necesitas pasar tiempo con ellos. En el caso que no te guste te devolvemos el 100% de tu dinero.</p><br><a href='https://calmessimple.com.ar/30-noches-de-prueba-en-casa/'>mirá como funciona</a>"
+    },
+    {
+        "nro": 2,
+        "title":"¿Qué garantía tienen los productos?",
+        "answer":"<p>Damos 5 años de garantía para nuestro colchón y base y 18 meses para la almohada. La garantía sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p> "
+    },
+    {
+        "nro": 3,
+        "title":"¿De qué está hecho el colchón?",
+        "answer":"<p> El colchón está hecho de espuma 100% producida en argentina. Tiene dos capas:</p> <p>Capa de confort: espuma soft HD, que aporta adaptabilidad/moldeado al cuerpo, confort y pasaje de aire (respirabilidad).</p>  <p>Capa de soporte: espuma de alta densidad (super firme) de 30 kg/m3. que aporta durabilidad, soporte y mucha firmeza.</p>"
+    },
+    {
+        "nro": 4,
+        "title":"¿Qué altura tiene el colchón?",
+        "answer":"<p>Tenemos dos modelos de colchón de dos alturas diferentes:</p> <p> El Colchón Original mide 22 cm de alto y tiene una capa de soporte de 18 cm y una capa confort de 4 cm.</p> <p>El Colchón Original Plus mide 28 cm de alto y tiene una capa de soporte de 24 cm y una capa confort de 4 cm.</p>"
+    },
+    {
+        "nro": 5,
+        "title":"¿Cuánto tiempo puede estar el colchón en la caja?",
+        "answer":"<p>Si compraste un colchón puede estar como máximo 2 meses en la caja sin que pierda las propiedades.</p>"
+    }
+],
+"PaymentMethods": [
+    {
+        "nro": 1,
+        "title":"¿Se puede comprar en cuotas sin interés?",
+        "answer":"<p>¡Si! Podés comprar todos nuestros productos en hasta 12 cuotas sin interés con cualquier tarjeta de crédito Master Card, Visa o American Express bancarizadas.</p> <p>Antes de finalizar tu compra, cuando elijas tu tarjeta de crédito, vas a poder elegir en cuantas cuotas pagar.</p>"
+    },
+    {
+        "nro": 2,
+        "title":"¿Qué medios de pago aceptan?",
+        "answer":"<p>Nuestros medios de pago son:</p> <ul> <li>Tarjeta de crédito Visa, Amex o Master bancarias en hasta 12 cuotas sin interés.</li> <li>Tarjeta de crédito no bancaria en un pago.</li> <li>Tarjeta Naranja con 6 cuotas sin interés.</li> <li>Tarjeta de debito.</li> <li>Transferencia o depósito con un 10% de descuento</li> <li>En hasta 6 cuotas sin interés sin tarjeta con Wibond.</li> </ul>"
+    },
+    {
+        "nro": 3,
+        "title":"¿Cómo uso un cupón de descuento?",
+        "answer":"<p>En el carrito vas a encontrar una opción que dice “agregar cupón». Después de hacer click ingresá el código, dale a “aplicar”, y ¡Listo!</p>"
+    }
+],
+"Shipment": [
+    {
+        "nro": 1,
+        "title":"¿Cómo hago el seguimiento de mi pedido?",
+        "answer":"Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podés hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'>este link</a>."
+    },
+    {
+        "nro": 2,
+        "title":"¿Cuál es el costo del envío?",
+        "answer":"<p>Las compras de un valor mayor al precio de una almohada tienen envío gratis a todo el país. Las de menor valor tienen un costo de $800 para todo el país. Este costo lo vas a ver reflejado en el carrito luego de agregar los productos.</p>"
+    },
+    {
+        "nro": 3,
+        "title":"¿Se hacen entregas los fines de semana?",
+        "answer":"<p>Las entregas se hacen de lunes a sábados en CABA y primer cordón del AMBA. De lunes a viernes en el resto del país.</p>"
+    }
+],
+"TestNights":[
+    {
+        "nro":1,
+        "title":"¿Cuánto tiempo tengo para hacer la devolución?",
+        "answer":"<p>Desde que te llega el producto, empiezan a contar las 30 noches de prueba. Dentro de ese plazo, podés contactarnos para empezar el proceso de devolución. Recomendamos siempre probar nuestros productos al menos 12 días.</p>"
+    },
+    {
+        "nro":2,
+        "title":"¿Cómo tiene que estar el producto para poder devolverlo",
+        "answer":"<p>El producto tiene que estar en buen estado (ni roto ni manchado).</p><p>Colchón: Debe entregarse envuelto en el plástico en el que llegó. Si no lo tenés, podés envolverlo con bolsas de plástico para que no se manche ni dañe durante su traslado.Base: Tiene que estar desarmada e incluir todos los artículos con los que se entregó idealmente en su caja original. Almohada: Tiene que estar dentro de una caja (idealmente en la que se entregó). Los retiros son siempre en la puerta del domicilio."
+
+    },
+    {
+        "nro":3,
+        "title":"¿Cómo y cuándo me devuelven el  dínero?",
+        "answer":"<p>El reembolso se realiza al mismo medio con el que se hizo la compra, una vez que el producto se retira. El tiempo de acreditación varía según cada banco: una vez que hagamos el reembolso, te enviamos el comprobante para que puedas consultarlo con el tuyo.</p>"
+    }
+]
+}

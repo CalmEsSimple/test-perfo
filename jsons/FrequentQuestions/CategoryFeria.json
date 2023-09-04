@@ -1,0 +1,22 @@
+[
+    {
+        "nro": 1,
+        "title":"¿Qué garantía tienen los productos feria?",
+        "answer":"<p>La misma que nuestros productos sin abrir. Damos 5 años de garantía. Esta sirve para cubrir a los clientes frente a defectos de fábrica, no de mal uso.</p>"
+    },
+    {
+        "nro": 2,
+        "title":"¿Cuándo voy a recibir mi producto feria?",
+        "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+    },
+    {
+        "nro": 3,
+        "title":"¿Qué es y como funciona la Feria Calm?",
+        "answer":"<p>Feria Calm es una alternativa exclusiva para vos que buscás los productos del sueño mejor puntuados de Argentina con un gran descuento. Ofrecemos productos abiertos en perfecto estado a precio amigue, con un 50% de descuento. En esta página realizas el proceso de compra como lo harías normalmente en nuestra web.</p>"
+    },
+    {
+        "nro": 4,
+        "title":"¿Son reales las 30 noches de prueba?",
+        "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu funda necesitás pasar tiempo con ella. Y en el caso que no te gusten te devolvemos el 100% de tu dinero.</p>"
+    }
+]

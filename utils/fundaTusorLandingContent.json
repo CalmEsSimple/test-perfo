@@ -1,0 +1,74 @@
+{
+    "productId": "1851405",
+    "title": "funda de tusor",
+    "boldTitle": "4 estaciones",
+    "selectedLink": "ropa de cama",
+    "dreamDelivery": false,
+    "skus": "BLACUBTUS100000;BLACUBTUS100001;BLACUBTUS100002;BLACUBTUS100003;BLACUBTUS140000;BLACUBTUS140001;BLACUBTUS140002;BLACUBTUS140003;BLACUBTUS180000;BLACUBTUS180001;BLACUBTUS180002;BLACUBTUS180003;BLACUBTUS200000;BLACUBTUS200001;BLACUBTUS200002;BLACUBTUS200003",
+    "isSquare": false,
+    "layoutImages": [
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/funda1.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/funda2.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/funda3.webp",
+        "https://calmessimple.com.ar/wp-content/uploads/2022/05/funda4.webp"
+    ],
+    "layoutImagesHaveVideo": false,
+    "accordionSpecsTexts": [
+        {
+            "nro": 1,
+            "title":"30 noches de prueba",
+            "answer":"<p>Probá cualquier producto de calm por <b>30 noches.</b> Si no te gusta, lo devolves y te reembolsamos <b>cada centavo.</b> Así de <b>simple como lo lees.</b></p>"
+        },
+        {
+            "nro": 2,
+            "title":"Envío gratis",
+            "answer":"<p>Hacemos envío gratis a <b>todo el país.</b> Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"6 cuotas sin interés",
+            "answer":"<p>Podés pagar en <b>6 cuotas sin interés</b> con todas las tarjetas que participan del programa <b>AHORA 6.</b></p>"
+        }
+    ],
+    "specsTexts": [
+        {
+            "title":"Maridala con el Edredón Abrazo",
+            "subtitle":"<br/><br/>Diseñada con el tamaño y el cierre perfecto para cubrir el <b>Edredón Abrazo.</b>"
+        },
+        {
+            "title":"Vestí de gala tu colchón",
+            "subtitle":"<br/><br/>Dale a tu habitación el <b>toque de color</b> que necesita."
+        },
+        {
+            "title":"Tela",
+            "subtitle":"<br/><ul><li><b>Tusor 100% algodón</b> de 450 gramos</li></ul>"
+        }
+    ],
+    "hasUnboxingSection": false,
+    "faqAccordionTitle": {"title": "preguntas ", "bold": "frecuentes"},
+    "faqAccordion":  [
+        {
+            "nro": 1,
+            "title":"¿Por qué se llama 4 estaciones?",
+            "answer":"<p>Porque podés usarla sin relleno cuando hace calor y con relleno cuando hace frío, vistiendo tu cama con la misma funda durante todo el año.</p>"
+        },
+        {
+            "nro": 2,
+            "title":"¿Son reales las 30 noches de prueba?",
+            "answer":"<p>Te ofrecemos 30 noches de pruebas reales en tu casa. Creemos que para enamorarte de tu nueva cama necesitas pasar tiempo con ella. En el caso que no te guste te devolvemos el 100% de tu dinero.</p>"
+        },
+        {
+            "nro": 3,
+            "title":"¿Cuándo voy a recibir mi Funda Tusor 4 Estaciones?",
+            "answer":"<p>Una vez que hagas la compra vamos a estar actualizándote paso a paso del estado de tu pedido por correo electrónico. Además podes hacer el seguimiento con tu mail y número de pedido en <a href='https://calmessimple.com.ar/seguimiento'> este link.<a></p>"
+        }
+    ],
+    "specsAccordionTitle": {"title": "especificaciones de la ", "bold": "funda de tusor 4 estaciones"},
+    "specsAccordion":  [
+        {
+            "nro": 1,
+            "title":"Medidas y tamaños",
+            "answer":"<p><ul><li><b>Plaza o plaza y media: 160 x 240</b> (para colchones de 80 y 100 de ancho)</li><li><b>2 plazas: 220 x 240</b> (para colchones de 140 de ancho)</li><li><b>Queen o King: 240 x 240</b> (para colchones de 160 y 180 de ancho)</li><li><b>Super King: 280 x 240</b>(para colchones de 200 de ancho)</li></ul></p>"
+        }
+    ]
+}
