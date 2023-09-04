@@ -6,20 +6,30 @@ import SliderBigBanner from '@/components/SliderBigBanner/SliderBigBanner';
 import TagShipment from '@/components/TagShipment/TagShipment';
 import PaymentMethod from '@/components/PaymentMethod/PaymentMethod';
 import Experience from '@/components/Experience/Experience';
+const ExperienceComponent = withLazyLoad(Experience);
 import DreamRest from '@/components/DreamRest/DreamRest';
+const DreamRestComponent = withLazyLoad(DreamRest);
 import Simple from '@/components/Simple/Simple';
+const SimpleComponent = withLazyLoad(Simple);
 import Colchon from '@/components/Colchon/Colchon';
+const ColchonComponent = withLazyLoad(Colchon);
 import RelatedProducts from '@/components/RelatedProducts/RelatedProducts';
+const RelatedProductsComponent = withLazyLoad(RelatedProducts);
 //import { useSelector } from 'react-redux';
 //import { IStore } from '@/state/types';
 import { useEffect, useState } from 'react';
 import { topPage } from '@/utils/topPage';
 import Donate from '@/components/Donate/Donate';
+const DonateComponent = withLazyLoad(Donate);
 import Score from '@/components/Score/Score';
+const ScoreComponent = withLazyLoad(Score);
 import Trials from '@/components/Trial/Trial';
+const TrialsComponent = withLazyLoad(Trials);
 import ImgDescButt from '@/components/ImgDescButt/ImgDescButt';
+const ImgDescButtComponent = withLazyLoad(ImgDescButt);
 //import { getCurrentProductsRelated } from '@/state/products/productsSelector';
 import axios from 'axios';
+import withLazyLoad from '@/utils/withLazyLoad';
 
 export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProductsRelated, colchon}: any) => {
   //const currentProductsRelated = useSelector((store: IStore) => getCurrentProductsRelated(store))
@@ -47,15 +57,15 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <SliderBigBanner bannerId="cll3ss8ke197g0biu1yz5rxfa" />
           <TagShipment />
           <PaymentMethod />
-          <Experience />
-          <DreamRest />
-          <Simple />
-          {/*<Colchon colchon={colchon} />
-          <RelatedProducts relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
-          <Donate />
-          <Score />
-          <Trials />
-      <ImgDescButt />*/}
+          <ExperienceComponent />
+          <DreamRestComponent />
+          <SimpleComponent />
+          <ColchonComponent colchon={colchon} />
+          <RelatedProductsComponent relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
+          <DonateComponent />
+          <ScoreComponent />
+          <TrialsComponent />
+          <ImgDescButtComponent />
         </main>
       }
     </>
