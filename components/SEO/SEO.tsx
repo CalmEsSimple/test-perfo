@@ -82,50 +82,6 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          />
       }
 
-      <Script
-         src="https://www.googletagmanager.com/gtag/js?id=AW-703433440"
-         onLoad={() => {
-            const script = document.createElement("script");
-            script.innerHTML = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-703433440');`
-            document.head.appendChild(script);
-         }}
-      />
-
-      <Script
-         src="https://www.googletagmanager.com/gtm.js?id=GTM-KV4GTWK"
-         onLoad={() => {
-            const script = document.createElement("script");
-            script.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-               '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
-               })(window,document,'script','dataLayer','GTM-KV4GTWK');`
-            document.head.appendChild(script);
-         }}
-      />
-
-      <Script strategy="afterInteractive">
-         {`
-               !function(f,b,e,v,n,t,s)
-               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-               n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-               if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-               n.queue=[];t=b.createElement(e);t.async=!0;
-               t.src=v;s=b.getElementsByTagName(e)[0];
-               s.parentNode.insertBefore(t,s)}(window, document,'script',
-               'https://connect.facebook.net/en_US/fbevents.js');
-               fbq('init', '645843929278280');
-               fbq('track', 'PageView');
-            `}
-      </Script>
-
-      {showCalmRichSnippet &&
-         <>
-            <link rel="preload" fetchpriority="high" as="image" href="https://calmessimple.com.ar/wp-content/uploads/2022/09/2700x900_WebSinPromo.webp" type="image/webp" />
-            <link rel="preload" fetchpriority="high" as="image" href="https://calmessimple.com.ar/wp-content/uploads/2023/03/Calm2514.jpg" type="image/webp" />
-         </>
-      }
-
       <Head>
          <title>{title}</title>
          <meta name="description" content={description} />
@@ -142,8 +98,6 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          <meta property="twitter:title" content={title} />
          <meta property="twitter:description" content={description} />
          <meta name="twitter:image" content={imageSrc} />
-
-         <link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
 
          {process.env.NODE_ENV != "development" &&
             <>
@@ -170,8 +124,6 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                }
             })}
          </script>
-
-         <link rel="preload" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
 
          <script type="application/ld+json">
             {JSON.stringify({
