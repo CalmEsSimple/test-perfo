@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import { IoIosArrowBack } from 'react-icons/io';
 import styled from "styled-components";
@@ -25,7 +26,7 @@ export const LogoWrapper = styled.a`
     }
 `;
 
-export const Logo = styled.img`
+export const Logo = styled(Image)`
     width: 75px;
 `;
 
@@ -100,7 +101,7 @@ export const MobileMenuIconWrapper = styled.div`
     cursor: pointer;
 `;
 
-export const MobileLogo = styled.img`
+export const MobileLogo = styled(Image)`
     width: 65px;
     display: flex;
 `;
@@ -261,7 +262,7 @@ export const SelectedProductWrapper = styled.div`
     flex-direction: column;
 `;
 
-export const ProductImage = styled.img`
+export const ProductImage = styled(Image)`
     width: 240px;
     border-radius: 10px;
 `;
@@ -283,7 +284,7 @@ export const ProductDescription = styled.p`
     color: ${props => props.theme.colors.millionGray};
 `;
 
-export const Cart = styled.img`
+export const Cart = styled(Image)`
     height: 1.1em;
 
 `;

@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'calmessimple.com.ar',
       },
+      {
+        protocol: 'https',
+        hostname: 'imagedelivery.net',
+      },
     ],
   }
 }

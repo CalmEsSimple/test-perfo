@@ -1,13 +1,13 @@
 import { IProduct } from "@/state/products/types";
 import {
   DivUnit,
-  Image,
   Name,
   Description,
   PriceStrikeThrough,
   DivPrice,
   Price,
   TextCuotas,
+  ImageN,
 } from "./CategoryCardCss";
 import { productURLRedirectionByURL } from "@/utils/productURLById";
 import PillOfferProduct from "@/components/PillOfferProduct/PillOfferProduct";
@@ -22,9 +22,10 @@ const CategoryCard = ({ item, installments, splitCharacter }: { item: IProduct, 
       <a href={productURLRedirectionByURL(item.id_prod ? item.id_prod : item.id_parent)}>
         {item.discount && <PillOfferProduct pillId={item.discount as string} isRelatedProducts />}
 
-        <Image
+        <ImageN
           src={item.image}
           alt={item.name}
+          fill={true}
         />
       </a>
       <Name>{arrayName[0]}</Name>

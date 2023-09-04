@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const Inner = styled.div<{$isFAQPage?: boolean}>`
@@ -36,7 +37,7 @@ interface ImgRotateProps {
   $isActive?: boolean;
 }
 
-export const ImgRotate = styled.img<ImgRotateProps>`
+export const ImgRotate = styled(Image)<ImgRotateProps>`
   transform: rotate(${(props) => (props.$isActive ? -180 : 0)}deg);
   transition: all 0.2s;
 `;
@@ -44,7 +45,7 @@ interface ImgStaticProps {
   $isActive?: boolean;
 }
 
-export const ImgStatic = styled.img<ImgStaticProps>`
+export const ImgStatic = styled(Image)<ImgStaticProps>`
 
 `;
 

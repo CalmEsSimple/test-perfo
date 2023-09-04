@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { IoIosArrowBack } from "react-icons/io";
+import Image from "next/image";
 
 export const SliderContainer = styled.div`
   width: 100%;
@@ -38,7 +39,7 @@ export const SliderWrapper = styled.div<{$color: string, $imageSrc: string}>`
   }
 `;
 
-export const PlainImage = styled.img`
+export const PlainImage = styled(Image)`
   height: 0;
 `;
 

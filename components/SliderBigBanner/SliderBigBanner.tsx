@@ -37,7 +37,7 @@ const SliderBigBanner = ({ bannerId }: { bannerId: string}) => {
           {!loading && data.bigBanner.imagesData.length > 1 && data.bigBanner.imagesData.map((slider: IPlainImageSlide) => (
             <a href={slider.redirection} key={slider.alt}>
               <SliderWrapper $color={slider.color} $imageSrc={isSM ? slider.mobile_src : slider.src}>
-                <PlainImage alt={slider.alt} src={isSM ? slider.mobile_src : slider.src} />
+                <PlainImage fill={true} alt={slider.alt} src={isSM ? slider.mobile_src : slider.src} />
               </SliderWrapper>
             </a>
           ))}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
@@ -92,17 +93,17 @@ export const ChildrenIconHolder = styled.div`
     margin:0px 10px 0px 10px;
 `;
 
-export const ImgIcon = styled.img`
+export const ImgIcon = styled(Image)`
     height:100%;
     width: 100%;
 `;
 
-export const SocialIcon = styled.img`
+export const SocialIcon = styled(Image)`
     height: 1.1em;
     margin-top: 3px;
 `;
 
-export const ArrowIcon = styled.img`
+export const ArrowIcon = styled(Image)`
     height: 70%;
     margin-top: 3px;
 `;

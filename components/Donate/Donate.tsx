@@ -16,6 +16,7 @@ const Donate = ({withBorder}: {withBorder?: boolean}) => {
           src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/thumbnail"
           data-src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/a353d3ad-9c02-4662-34d0-e3cb1b164400/thumbnail"
           alt="compromiso solidario"
+          fill={true}
         ></Img>
       </DivImage>
       <DivText>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const DivDonate = styled.section<{$withBorder?: boolean}>`
@@ -26,7 +27,7 @@ export const DivImage = styled.div`
   }
 `;
 
-export const Img = styled.img`
+export const Img = styled(Image)`
   max-width: 100%;
   height: auto;
   width: 50%;

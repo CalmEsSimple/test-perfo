@@ -7,6 +7,7 @@ import { onUpdateItemFromCart } from "@/state/cart/cartActions";
 import { Content, Wrapper } from "../LoadingDiv/styled"
 import variations_products from "@/utils/variations_products"
 import type {} from 'redux-thunk/extend-redux';
+import Image from "next/image";
 
 export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, regular_price, imageSrc, removeItem, variations, isChange, isDelete, isCpCalc, isAddCoupon }: IProps) => {
 
@@ -23,10 +24,11 @@ export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, 
 
     return (
         <CardCart>
-            <img
+            <Image
                 src={imageSrc ? imageSrc.src : imgGeneric}
                 className="cart-img"
                 alt={imageSrc ? imageSrc.name : "Producto sin imagen"}
+                fill={true}
             />
 
             <h3 className="product-name">{name}</h3>
@@ -100,9 +102,10 @@ export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, 
                         aria-label="Eliminar producto"
                         disabled
                         className="product-delete-disabled">
-                        <img
+                        <Image
                             className="product-delete-img"
                             alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e2550a75-61c1-4ed8-97ad-deea13f59e00/thumbnail"
+                            fill={true}
                         />
 
                     </button>
@@ -112,8 +115,9 @@ export const CardSidecart = ({ keyItem, quantity, quantity_limit, name, totals, 
                         aria-label="Eliminar producto"
                         onClick={() => removeItem(keyItem)}
                         className="product-delete">
-                        <img
+                        <Image
                             className="product-delete-img"
+                            fill={true}
                             alt='Icono de eliminar producto' src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/377bc4d8-bcc7-494f-926b-e814a73da300/thumbnail"
                         />
                     </button>

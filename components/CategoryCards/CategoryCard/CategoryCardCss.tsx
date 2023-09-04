@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const OfferText = styled.p`
   position: absolute;
@@ -26,7 +27,7 @@ export const DivUnit = styled.div`
 
 `;
 
-export const Image = styled.img`
+export const ImageN = styled(Image)`
   width: 100%;
   border-radius: 8%;
 `;

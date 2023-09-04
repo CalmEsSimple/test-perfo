@@ -44,15 +44,16 @@ const NavBarMobile = ({ menuData, staticLandings, cartItemsCount, selectedLink, 
     return (
         <>
             <NavBarWrapper>
-                <MobileMenuIconWrapper aria-label="Menú de navegación">
+                {/*  aria-label="Menú de navegación" */}
+                <MobileMenuIconWrapper>
                     <MobileMenuIcon
                         toggled={isMenuOpen}
                         toggle={onToggle}
                         size={20}
                     />
                 </MobileMenuIconWrapper>
-                <a href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/"}><MobileLogo src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/4cb0a97b-bb21-4f58-a83e-60eeea837e00/thumbnail" alt="logo mobile" /></a>
-                <CartWrapper onClick={() => openCart()}><Cart src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d234b338-32c2-47a1-771b-0f787a19dd00/public" alt="carrito" /><CartNumber>{cartItemsCount}</CartNumber></CartWrapper>
+                <a href={process.env.NEXT_PUBLIC_REDIRECT_URL_BASE + "/"}><MobileLogo fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/4cb0a97b-bb21-4f58-a83e-60eeea837e00/thumbnail" alt="logo mobile" /></a>
+                <CartWrapper onClick={() => openCart()}><Cart fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/d234b338-32c2-47a1-771b-0f787a19dd00/public" alt="carrito" /><CartNumber>{cartItemsCount}</CartNumber></CartWrapper>
             </NavBarWrapper>
             <MenuWrapper $isMenuOpen={isMenuOpen}>
                 <MobileMenuWrapper>

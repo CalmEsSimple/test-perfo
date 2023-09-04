@@ -22,6 +22,7 @@ import RelatedProducts from "../RelatedProducts/RelatedProducts";
 import { getCartCurrentProductsRelated, getCartData, getCartError, getDescriptionCoupons, getShippingCost, getSubtotalPrice, getSubtotalPriceDiscount, getTotalPrice, getVariationsData } from "@/state/cart/cartSelector";
 import { getLoadingValues } from "@/state/loading/loadingSelector";
 import Spinner from "../Spinner/Spinner";
+import Image from "next/image";
 
 interface IProps {
     isOpen: boolean | (() => void);
@@ -161,7 +162,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                         aria-label={`Borrar cupón ${coupon.code}`}
                                         onClick={() => removeCoupon(coupon.code)}
                                     >
-                                        <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/thumbnail" alt="Borrar cupón" />
+                                        <Image fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/527083b1-56bb-4a75-1a98-e7cffd083800/thumbnail" alt="Borrar cupón" />
                                     </button> : <></>
                             }
 
@@ -339,7 +340,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                             aria-label="Agregar cupón descuento"
                                             title="Agregar cupón descuento"
                                         >
-                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/thumbnail" alt="cupon icono" />
+                                            <Image fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/thumbnail" alt="cupon icono" />
                                         </button>
                                         :
                                         <button
@@ -348,7 +349,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                                             title="Agregar cupón descuento"
                                             onClick={toggleCoupon}
                                         >
-                                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/thumbnail" alt="cupon icono" />
+                                            <Image fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/203e4d54-8aff-4b8c-d7b1-1af5f7148500/thumbnail" alt="cupon icono" />
                                             <h5>Agregar cupón</h5>
                                         </button>
                                 }
@@ -425,7 +426,7 @@ const SideCart = ({ isOpen, openCart, closeCart }: IProps) => {
                     ) :
                         <PEmptyCart>
                             <p>Tu carrito está vacío</p>
-                            <img src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/fdded6b5-f37f-4eae-a0fa-522f87e77500/thumbnail" alt="Carrito img" />
+                            <Image fill={true} src="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/fdded6b5-f37f-4eae-a0fa-522f87e77500/thumbnail" alt="Carrito img" />
                         </PEmptyCart>
                     }
 
