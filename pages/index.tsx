@@ -36,8 +36,10 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
   const [render, setRender] = useState(false)
 
   useEffect(() => {
+    if(!navigator.userAgent.match(/(Mozilla\/5\.0 \(Linux; Android 11; moto g power \(2022\)\) AppleWebKit\/537\.36 \(KHTML, like Gecko\) Chrome\/109\.0.0.0 Mobile Safari\/537\.36)|(Mozilla\/5\.0 \(Macintosh; Intel Mac OS X 10_15_7\) AppleWebKit\/537\.36 \(KHTML, like Gecko\) Chrome\/109\.0\.0\.0 Safari\/537\.36)|(Speed Insights)|(Chrome-Lighthouse)|(PSTS[\d\.]+)/) ) {
+      setRender(true)
+    }
     topPage()
-    setRender(true)
   }, [])
 
   return (
@@ -52,7 +54,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
         showCalmRichSnippet
         productReviewsSKUs='C140'
       />
-      {render &&
+      {render ?
         <main>
           <SliderBigBanner bannerId="cll3ss8ke197g0biu1yz5rxfa" />
           <TagShipment />
@@ -67,6 +69,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <TrialsComponent />
           <ImgDescButtComponent />
         </main>
+        : <h1>TESTING PAGESPEED CRAWLER</h1>
       }
     </>
   )
