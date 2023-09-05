@@ -1,4 +1,0 @@
-[[headers]]
-  for = "/styles/fonts/Gilroy-Bold.ttf"
-    [headers.values]
-    Cache-Control = "public, max-age=31536000"
