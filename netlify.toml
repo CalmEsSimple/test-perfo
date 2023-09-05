@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/styles/fonts/*"
+  for = "/.next/static/media/fonts/*"
     [headers.values]
     Cache-Control = "public, max-age=31536000"
