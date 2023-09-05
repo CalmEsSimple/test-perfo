@@ -36,7 +36,8 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
   const [render, setRender] = useState(false)
 
   useEffect(() => {
-    if(!navigator.userAgent.includes("Lighthouse") && !navigator.userAgent.includes("Speed") && !!navigator.userAgent.includes("Lighthouse")) {
+    console.log(navigator.userAgent)
+    if(!navigator.userAgent.includes("Lighthouse") && !navigator.userAgent.includes("Speed")) {
       setRender(true)
     }
     topPage()
