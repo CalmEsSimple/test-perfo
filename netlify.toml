@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/.next/static/media/fonts/*"
+  for = "/styles/fonts/Gilroy-Bold.ttf"
     [headers.values]
     Cache-Control = "public, max-age=31536000"
