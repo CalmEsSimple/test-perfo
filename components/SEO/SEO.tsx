@@ -121,13 +121,13 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
                </Script>}
 
       <Head>
-      <Script
+{/*      <Script
             src="https://cdn.reamaze.com/assets/reamaze.js"
             strategy="afterInteractive"
          />
          <Script
           src="./chatConfig.js"
-         />
+               />*/}
          <title>{title}</title>
          <meta name="description" content={description} />
          <meta name="viewport" content="width=device-width, initial-scale=1" />
