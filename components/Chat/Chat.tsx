@@ -94,8 +94,7 @@ const Chat = () => {
 
   return (
       <>
-        <Head>
-          <Script
+          {false && <Script
             src="https://cdn.reamaze.com/assets/reamaze.js"
             strategy="lazyOnload"
             onLoad={() => {
@@ -133,8 +132,7 @@ const Chat = () => {
                   orders: {"enabled":false,"header":"","find_order_button_text":"Busquemos tu orden"}
                 };
             }}
-         />
-         </Head>
+         />}
         <div id="reamaze-widget"></div>
       </>
   );
