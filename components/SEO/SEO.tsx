@@ -58,7 +58,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
 
   return (
    <>
-      {productReviewsSKUs && 
+      {false && 
          <>
             <Script
                src="https://widget.reviews.io/rich-snippet/dist.js"
@@ -71,7 +71,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          </>
       }
 
-      {showCalmRichSnippet && 
+      {false && 
          <Script
             src="https://widget.reviews.co.uk/rich-snippet/dist.js?ver=5.3.15"
             onLoad={() => {
@@ -136,7 +136,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          <meta property="twitter:description" content={description} />
          <meta name="twitter:image" content={imageSrc} />
 
-         <link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
+         {/*<link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />*/}
 
          {/*process.env.NODE_ENV != "development" &&
             <>
@@ -164,7 +164,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
             })}
          </script>
 
-         <link rel="preload" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
+         {/*<link rel="preload" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />*/}
 
          <script type="application/ld+json">
             {JSON.stringify({
