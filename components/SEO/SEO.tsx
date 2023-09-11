@@ -123,7 +123,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
       <Head>
       <Script
             src="https://cdn.reamaze.com/assets/reamaze.js"
-            strategy="lazyOnload"
+            strategy="afterInteractive"
          />
          <Script
           src="./chatConfig.js"
