@@ -33,15 +33,6 @@ import withLazyLoad from '@/utils/withLazyLoad';
 
 export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProductsRelated, colchon}: any) => {
   //const currentProductsRelated = useSelector((store: IStore) => getCurrentProductsRelated(store))
-  const [render, setRender] = useState(false)
-
-  useEffect(() => {
-    console.log(navigator.userAgent)
-    if(!navigator.userAgent.includes("Lighthouse") && !navigator.userAgent.includes("Speed")) {
-      setRender(true)
-    }
-    topPage()
-  }, [])
 
   return (
     <>
@@ -55,7 +46,6 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
         showCalmRichSnippet
         productReviewsSKUs='C140'
       />
-      {render ?
         <main>
           <TagShipment />
           <PaymentMethod />
@@ -65,12 +55,9 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <ColchonComponent colchon={colchon} />
           <RelatedProductsComponent relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <DonateComponent />
-          <ScoreComponent />
           <TrialsComponent />
           <ImgDescButtComponent />
         </main>
-        : <h1>TESTING PAGESPEED CRAWLER</h1>
-      }
     </>
   )
 }
