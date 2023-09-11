@@ -1,5 +1,6 @@
 import { getOpenSideCart } from "@/state/cart/cartSelector";
 import { IStore } from "@/state/types";
+import Script from "next/script";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -18,7 +19,7 @@ const Chat = () => {
           }
   }, [sideCartOpened])
 
-  useEffect(() => {
+  /*useEffect(() => {
     function loadScript() {
       return new Promise((resolve, reject) => {
         const script = document.createElement("script");
@@ -88,10 +89,50 @@ const Chat = () => {
         document.body.removeChild(scriptColchones);
       }
     };
-  }, []);
+  }, []);*/
 
   return (
-      <div id="reamaze-widget"></div>
+      <>
+          <Script
+            src="https://cdn.reamaze.com/assets/reamaze.js"
+            strategy="lazyOnload"
+            onLoad={() => {
+              var _support: any = _support || { 'ui': {}, 'user': {} };
+                _support['account'] = 'calm-es-simple';
+                _support['ui']['contactMode'] = 'mixed';
+                _support['ui']['enableKb'] = 'true';
+                _support['ui']['styles'] = {
+                  widgetColor: 'rgba(250, 189, 0, 0.99)',
+                  gradient: true,
+                };
+                _support['ui']['shoutboxFacesMode'] = 'default';
+                _support['ui']['shoutboxHeaderLogo'] = true;
+                _support['ui']['widget'] = {
+                  img: 'https://i.ibb.co/pjzD4pP/Logo-Chat-Web-Calm-1.png',
+                  displayOn: 'all',
+                  fontSize: 'default',
+                  allowBotProcessing: true,
+                  label: {
+                    text: 'Hola &#128155; &#191;Quer&#233;s descansar como en las nubes? Habl&#225; con nuestrxs especialistas del sue&#241;o &#128071;',
+                    mode: "notification",
+                    delay: 15,
+                    duration: 30,
+                    primary: "Si, quiero que me ayuden!",
+                    secondary: "No, gracias.",
+                    sound: true,
+                  },
+                  position: 'bottom-right',
+                  mobilePosition: 'bottom-right'
+                };
+                _support['apps'] = {
+                  faq: {"enabled":true},
+                  recentConversations: {"header":"Tus consultas recientes 😊"},
+                  orders: {"enabled":false,"header":"","find_order_button_text":"Busquemos tu orden"}
+                };
+            }}
+         />
+        <div id="reamaze-widget"></div>
+      </>
   );
 };
 
