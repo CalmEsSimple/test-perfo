@@ -9,12 +9,19 @@ import NavBar from '@/components/NavBar/NavBar';
 import Footer from '@/components/Footer/Footer';
 import { ApolloProvider } from '@apollo/client';
 import client from '@/utils/apolloClient';
+import { useEffect, useState } from 'react';
 const Chat = dynamic(() => import('../components/Chat/Chat'));
 
 export default ({ Component, pageProps }: AppProps) => {
 const prendechat = process.env.NEXT_PUBLIC_PRENDE_CHAT == "true"
 const prendenavbar = process.env.NEXT_PUBLIC_PRENDE_NAVBAR == "true"
 const prendefbygtm = process.env.NEXT_PUBLIC_PRENDE_FBYGTM == "true"
+
+const [show, setShow] = useState(false)
+
+useEffect(() => {
+setTimeout(() => {setShow(true)}, 10_000)
+}, [])
   return (
     <HelmetProvider>
       {prendefbygtm && <>
@@ -42,7 +49,7 @@ const prendefbygtm = process.env.NEXT_PUBLIC_PRENDE_FBYGTM == "true"
       <ApolloProvider client={client}>
         <Provider store={store}>
           <Theme>
-            {prendechat && <Chat />}
+            {show && prendechat && <Chat />}
             {prendenavbar && <NavBar />}
             <Component {...pageProps} />
             <Footer />
