@@ -128,7 +128,7 @@ const NavBar = () => {
                             />
                         }
                     </MenuWrapper>
-                    <SideCart isOpen={isOpenModal} openCart={openCart} closeCart={closeCart} />
+                    {/*<SideCart isOpen={isOpenModal} openCart={openCart} closeCart={closeCart} />*/}
                     {lowerBannerId && <HeadBanner bannerId={lowerBannerId} promotionBanner />}
                 </NavBarWrapper>
             }

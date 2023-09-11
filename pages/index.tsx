@@ -47,6 +47,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
         productReviewsSKUs='C140'
       />
         <main>
+          <SliderBigBanner  bannerId='cll3ss8ke197g0biu1yz5rxfa'/>
           <TagShipment />
           <PaymentMethod />
           <ExperienceComponent />
@@ -55,6 +56,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <ColchonComponent colchon={colchon} />
           <RelatedProductsComponent relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <DonateComponent />
+          <ScoreComponent/>
           <TrialsComponent />
           <ImgDescButtComponent />
         </main>

@@ -15,7 +15,7 @@ export default ({ Component, pageProps }: AppProps) => {
 
   return (
     <HelmetProvider>
-      {/*<noscript>
+      <noscript>
         <iframe
           src={`https://www.googletagmanager.com/ns.html?id=GTM-WRDJ2XNM`}
           height="0"
@@ -32,13 +32,13 @@ export default ({ Component, pageProps }: AppProps) => {
           alt="fbpx"
           src="https://www.facebook.com/tr?id=645843929278280&ev=PageView&noscript=1"
         />
-  </noscript>*/}
+  </noscript>
 
       <ApolloProvider client={client}>
         <Provider store={store}>
           <Theme>
-            {/*<Chat />*/}
-            {/*<NavBar />*/}
+            <Chat />
+            <NavBar />
             <Component {...pageProps} />
             <Footer />
           </Theme>
