@@ -1,5 +1,6 @@
 import { getOpenSideCart } from "@/state/cart/cartSelector";
 import { IStore } from "@/state/types";
+import { Head } from "next/document";
 import Script from "next/script";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
@@ -93,10 +94,12 @@ const Chat = () => {
 
   return (
       <>
+        <Head>
           <Script
             src="https://cdn.reamaze.com/assets/reamaze.js"
             strategy="lazyOnload"
             onLoad={() => {
+              console.log("entra al onload")
               var _support: any = _support || { 'ui': {}, 'user': {} };
                 _support['account'] = 'calm-es-simple';
                 _support['ui']['contactMode'] = 'mixed';
@@ -131,6 +134,7 @@ const Chat = () => {
                 };
             }}
          />
+         </Head>
         <div id="reamaze-widget"></div>
       </>
   );
