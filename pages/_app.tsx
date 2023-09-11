@@ -37,8 +37,8 @@ export default ({ Component, pageProps }: AppProps) => {
       <ApolloProvider client={client}>
         <Provider store={store}>
           <Theme>
-            <Chat />
-            <NavBar />
+            {/*<Chat />*/}
+            {/*<NavBar />*/}
             <Component {...pageProps} />
             <Footer />
           </Theme>
