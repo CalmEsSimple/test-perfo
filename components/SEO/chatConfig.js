@@ -1,4 +1,4 @@
-
+console.log("esta corriendo el chatconfig")
   var _support = _support || { 'ui': {}, 'user': {} };
     _support['account'] = 'calm-es-simple';
     _support['ui']['contactMode'] = 'mixed';
