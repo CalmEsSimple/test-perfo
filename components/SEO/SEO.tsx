@@ -137,7 +137,10 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          <meta name="twitter:image" content={imageSrc} />
 
          <link rel="prefetch" href="https://cdn.reamaze.com/assets/reamaze.js" as="script" />
-
+         <link rel="preload" as="image" href="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/e0c6d7fe-8473-4a41-ad08-3d38c26d3b00/fit=cover"/>
+         <link rel="preload" as="image" href="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/69a4bec6-33a9-41a9-03ae-64fe992b9500/fit=cover"/>
+         <link rel="preload" as="image" href="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/9a667b11-7dd5-4ccb-18ce-fc8ff0439600/fit=cover"/>
+         <link rel="preload" as="image" href="https://imagedelivery.net/7yveHullsFjmXtPLdJPFsg/2debc632-edd9-4e40-f86a-015e520e3d00/fit=cover"/>
          {/*process.env.NODE_ENV != "development" &&
             <>
                <link rel="preload" href="https://astounding-fudge-d98f38.netlify.app/_next/static/css/ae4ed9c503fd1e33.css" as="style"></link>
