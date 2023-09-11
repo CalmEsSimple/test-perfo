@@ -33,7 +33,12 @@ import withLazyLoad from '@/utils/withLazyLoad';
 
 export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProductsRelated, colchon}: any) => {
   //const currentProductsRelated = useSelector((store: IStore) => getCurrentProductsRelated(store))
-
+  const prendereviews = process.env.NEXT_PUBLIC_PRENDE_REVIEWS == "true"
+  console.log("process.env.NEXT_PUBLIC_PRENDE_FBYGTM", process.env.NEXT_PUBLIC_PRENDE_FBYGTM)
+  console.log("process.env.NEXT_PUBLIC_PRENDE_REVIEWS", process.env.NEXT_PUBLIC_PRENDE_REVIEWS)
+  console.log("process.env.NEXT_PUBLIC_PRENDE_CHAT", process.env.NEXT_PUBLIC_PRENDE_CHAT)
+  console.log("process.env.NEXT_PUBLIC_PRENDE_CARRITO", process.env.NEXT_PUBLIC_PRENDE_CARRITO)
+  console.log("process.env.NEXT_PUBLIC_PRENDE_NAVBAR", process.env.NEXT_PUBLIC_PRENDE_NAVBAR)
   return (
     <>
       <SEO
@@ -56,7 +61,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <ColchonComponent colchon={colchon} />
           <RelatedProductsComponent relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <DonateComponent />
-          {/*<ScoreComponent/>*/}
+          {prendereviews && <ScoreComponent/>}
           <TrialsComponent />
           <ImgDescButtComponent />
         </main>

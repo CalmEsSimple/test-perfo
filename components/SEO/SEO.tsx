@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage, faqAccordion, showCalmRichSnippet, productReviewsSKUs}: IProps) => {
    const [graph, setGraph] = useState<any[]>([])
-
+   const prendefbygtm = process.env.NEXT_PUBLIC_PRENDE_FBYGTM == "true"
    useEffect(() => {
       let aux = [
          {
@@ -82,7 +82,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          />
       }
 
-      {<Script
+      {prendefbygtm && <Script
          src="https://www.googletagmanager.com/gtag/js?id=AW-703433440"
          onLoad={() => {
             const script = document.createElement("script");
@@ -91,7 +91,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          }}
       />}
 
-      {<Script
+      {prendefbygtm && <Script
          src="https://www.googletagmanager.com/gtm.js?id=GTM-KV4GTWK"
          onLoad={() => {
             const script = document.createElement("script");
@@ -104,7 +104,7 @@ const SEO = ({title, description, imageSrc, url, graphImageObject, graphWebPage,
          }}
       />}
 
-      {<Script strategy="afterInteractive">
+      {prendefbygtm && <Script strategy="afterInteractive">
          {`
                !function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

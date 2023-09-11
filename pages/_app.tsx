@@ -12,9 +12,12 @@ import client from '@/utils/apolloClient';
 const Chat = dynamic(() => import('../components/Chat/Chat'));
 
 export default ({ Component, pageProps }: AppProps) => {
-
+const prendechat = process.env.NEXT_PUBLIC_PRENDE_CHAT == "true"
+const prendenavbar = process.env.NEXT_PUBLIC_PRENDE_NAVBAR == "true"
+const prendefbygtm = process.env.NEXT_PUBLIC_PRENDE_FBYGTM == "true"
   return (
     <HelmetProvider>
+      {prendefbygtm && <>
       <noscript>
         <iframe
           src={`https://www.googletagmanager.com/ns.html?id=GTM-WRDJ2XNM`}
@@ -32,13 +35,15 @@ export default ({ Component, pageProps }: AppProps) => {
           alt="fbpx"
           src="https://www.facebook.com/tr?id=645843929278280&ev=PageView&noscript=1"
         />
-  </noscript>
+      </noscript>
+      </>
+      }
 
       <ApolloProvider client={client}>
         <Provider store={store}>
           <Theme>
-            {/*<Chat />*/}
-            {/*<NavBar />*/}
+            {prendechat && <Chat />}
+            {prendenavbar && <NavBar />}
             <Component {...pageProps} />
             <Footer />
           </Theme>

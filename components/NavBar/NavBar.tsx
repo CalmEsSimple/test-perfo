@@ -17,6 +17,7 @@ import bannersIds from '@/utils/bannersIds.json'
 import { useRouter } from "next/router";
 
 const NavBar = () => {
+    const prendecarrito = process.env.NEXT_PUBLIC_PRENDE_CARRITO == "true"
     const dispatch = useDispatch()
     const [isOpenModal, openModal, closeModal] = useModal(false)
     const width = useWidth()
@@ -128,7 +129,7 @@ const NavBar = () => {
                             />
                         }
                     </MenuWrapper>
-                    {/*<SideCart isOpen={isOpenModal} openCart={openCart} closeCart={closeCart} />*/}
+                    {prendecarrito && <SideCart isOpen={isOpenModal} openCart={openCart} closeCart={closeCart} />}
                     {lowerBannerId && <HeadBanner bannerId={lowerBannerId} promotionBanner />}
                 </NavBarWrapper>
             }
