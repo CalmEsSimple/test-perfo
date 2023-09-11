@@ -56,7 +56,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
           <ColchonComponent colchon={colchon} />
           <RelatedProductsComponent relatedItems={currentProductsRelated} title="completá tu descanso" boldTitle="ideal" />
           <DonateComponent />
-          <ScoreComponent/>
+          {/*<ScoreComponent/>*/}
           <TrialsComponent />
           <ImgDescButtComponent />
         </main>
