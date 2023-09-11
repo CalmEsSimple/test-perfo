@@ -38,7 +38,7 @@ export default ({ Component, pageProps }: AppProps) => {
         <Provider store={store}>
           <Theme>
             <Chat />
-            <NavBar />
+            {/*<NavBar />*/}
             <Component {...pageProps} />
             <Footer />
           </Theme>
