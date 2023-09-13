@@ -42,6 +42,16 @@ export const SliderWrapper = styled.div<{$color: string, $imageSrc: string}>`
 export const PlainImage = styled.img`
   height: 0;
 `;
+export const LCPImage = styled.img`
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 99vh;
+  max-width: 99vw;
+  max-height: 99vh;
+`;
 
 export const ButtonWrapper = styled.div<{$isNext?: boolean}>`
   background-color: #F5F5F5;
