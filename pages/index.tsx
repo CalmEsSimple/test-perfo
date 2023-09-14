@@ -54,7 +54,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
         <main>
           {/*<SliderBigBanner  bannerId='cll3ss8ke197g0biu1yz5rxfa'/>*/}
           <TagShipment />
-          <PaymentMethod />
+          {/*<PaymentMethod />*/}
           <ExperienceComponent />
           <DreamRestComponent />
           <SimpleComponent />
