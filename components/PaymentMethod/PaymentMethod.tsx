@@ -28,11 +28,11 @@ const PaymentMethod = () => {
       description: "Hasta 20% Off en un pago",
     },
   ];
-
+const width = useWidth()
   return (
     <DivPayment>
-      <DivUnits>
-        {useWidth() > deviceSizes.mobile ? (
+      {width != 0 && <DivUnits>
+        {width > deviceSizes.mobile ? (
           <>
             {methods.map((item) => (
               <PaymentMethodUnit
@@ -49,7 +49,7 @@ const PaymentMethod = () => {
             items={methods}
           />
         )}
-      </DivUnits>
+      </DivUnits>}
     </DivPayment>
   );
 };
