@@ -52,7 +52,7 @@ export const Home = ({landingSEO, graphImageObject, graphWebPage, currentProduct
         productReviewsSKUs='C140'
       />
         <main>
-          <SliderBigBanner  bannerId='cll3ss8ke197g0biu1yz5rxfa'/>
+          {/*<SliderBigBanner  bannerId='cll3ss8ke197g0biu1yz5rxfa'/>*/}
           <TagShipment />
           <PaymentMethod />
           <ExperienceComponent />
